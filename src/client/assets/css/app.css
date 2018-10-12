@@ -1,0 +1,1108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+
+
+.section__2__about {
+    display: flex;
+}
+.about__section__tours {
+    padding-top: 3.7rem;
+    text-align: right;
+    padding-right: 3rem;
+    padding-left: 8rem;
+}
+@media(max-width: 900px) {
+    .section__2__about {
+        flex-direction: column;
+    }
+    .about__section__tours {
+        text-align: center;
+        padding: 4rem 1rem;
+    }
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .img__koh__tours {
+        width: 50%;
+        height: 50%;
+        padding: 3rem 1rem;
+    }
+    @media(max-width: 900px) {
+        .img__koh__tours {
+            width: 100%;
+            height: 70%;
+            padding: 0rem 0rem;
+        }
+    }
+}
+
+@-moz-document url-prefix() {
+    .img__koh__tours {
+        width: 140%;
+        height: 140%;
+        padding: 3rem 1rem;
+    }
+    @media(max-width: 900px) {
+        .img__koh__tours {
+            width: 100%;
+            height: 70%;
+            padding: 0rem 0rem;
+        }
+    }
+}
+
+
+
+
+
+
+.about__section__dive__learn { 
+    padding-bottom: 4rem;
+}
+
+/* Trips Styles */
+.main__btn {
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+
+/* Container (Parralax && Width) */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.img__koh__tours_learn {
+    width: 50%;
+    height: 50%;
+    padding-top: 3rem;
+}
+/************* */
+.koh__container > .p__about_sec {
+    line-height: 7rem;
+}
+.btn__about__sec {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+
+.tours__p__about {
+    line-height: 4rem;
+    letter-spacing: 0.4rem;
+    font-weight: 900;
+}
+.tours__p__about__one {
+    line-height: 4rem;
+    letter-spacing: 0.4rem;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.koh__container > .about__h1__sec {
+    text-align: right;
+    padding-right: 3rem;
+}
+.koh__container > .tours__p__about {
+    text-align: right;
+}
+
+
+
+@media (max-width: 900px) {
+    .btn__about__sec {
+        padding-bottom: 4rem;
+    }
+    .img__koh__tours_learn {
+        width: 100%;
+    }
+
+    .koh__container > .tours__p__about {
+        text-align: center;
+    }
+    .tours__p__about {
+        line-height: 3rem;
+        letter-spacing: 0.2rem;
+        font-weight: 900;
+        text-align: center;
+    }
+    .koh__container > .about__h1__sec {
+        text-align: center;
+        padding-right: 0rem;
+    }
+    .koh__container > .tours__p__about {
+        text-align: center;
+    }
+
+    .tours__p__about__one {
+        line-height: 4rem;
+        letter-spacing: 0rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .koh__header__about {
+        font-size: 3.6rem;
+        font-family: 'Noto Serif KR', sans-serif;
+        line-height: 5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .tours__p__about__one {
+        line-height: 4rem;
+        letter-spacing: 0rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+.koh__header__about {
+    font-size: 3.6rem;
+    font-family: 'Noto Serif KR', sans-serif;
+    line-height: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+/************* */
+
+
+/* Trips Container Styles Section (2) */
+.contact__container { 
+    color: black;
+    
+     background-image: url('../images/22713446_1774131815943808_7155317253714270497_o.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 120vh;
+      overflow: hidden;
+    }
+    .contact__head {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+    }
+    .opacity__container {
+        display: flex;
+        height: 50rem;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .grid__container {
+        border-radius: 30px;
+        /* opacity: 0.95; */
+        background-color: white;
+   }
+.form__input {
+    background-color: white;
+}
+
+
+.icon__container {
+    line-height: 2rem;
+    text-align: center;
+}
+/* Trips: Max Width and (Min Width) */
+@media (max-width: 600px) {
+    .container {
+        max-width: 540px;
+    }
+      .header__title {
+          font-size: 3.5rem;
+      }
+      .grid__container {
+        width: 80%;
+    }
+    .contact__container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+@media (min-width: 768px) {
+            .contact__container {
+                padding-top: 7rem;
+                
+            }
+    .container {
+        max-width: 720px;
+    }
+    .grid__container {
+        width: 70%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+/* Tabs Styles */
+.itnerary__bullet {
+    list-style-type: none;
+}
+
+
+/* Schedule and Rates */
+
+.bck_schedule {
+    color: black;
+    background-image: url('../images/rock__cover.JPG');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 66.5vh;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+}
+.schedule__container__header {
+    position: relative;
+    top: 130px;
+    
+}
+.header {
+    font-family: 'Leckerli One', cursive;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+.btm_container_schedule {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    opacity: 0.9;
+}
+.info__schedule {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #36486b;
+    display: grid;
+    grid-column: 1;
+    align-content: space-around;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    height: 40%;
+    color: white;
+    list-style-type: none;
+}
+.info__schedule > li {
+    padding: 25px 37px;
+    font-weight: 900;
+}
+
+/* Schedule Container */
+.schedule__container {
+    padding: 3rem 0px;
+    background-color: #f0f0f0f0;
+}
+
+.header_sch_1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+}
+
+.sch__2 {
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: space-around;
+    justify-content: center;
+    list-style-type: none;
+    padding: 30px 0px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sch__2 > li {
+    padding: 0px 40px;
+}
+.header_sch_1 {
+    color: white;
+}
+.container__sch_1 {
+    background-color: dodgerblue;
+    margin: 0px 4rem;
+    padding: 10px 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.btm__container_sch2 {
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 0px 4rem;
+    box-shadow: 2px 10px black;
+}
+
+.sch__3 {
+    display: none;
+}
+.ite__sch {
+    text-decoration: none;
+    color: white;
+    background-color: #e91e63;
+    padding: 13px;
+    border-radius: 30px;
+}
+.ite__sch__blue {
+    text-decoration: none;
+    color: white;
+    background-color: #00acc1;
+    padding: 13px;
+    border-radius: 30px;
+}
+
+@media (max-width: 890px) {
+    .schedule__container {
+        overflow: hidden;
+    }
+    .btm__container_sch2 {
+        background-color: #f0f0f0f0;
+        box-shadow: 0px 0px;
+    }
+    .info__schedule {
+        display: none;
+    }
+
+    .sch__2 {
+        display: none;
+    }
+   
+    .sch__3 {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        border-bottom: 2px solid #d3d3d3;
+        padding: 30px 0px;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    .sch__p {
+        color: dodgerblue;
+        font-weight: 900;
+        letter-spacing: 0.2rem;
+    }
+    .sch__3 > li {
+        padding-bottom: 1rem;
+        line-height: 2.5rem;
+    }
+    .btn__sch {
+             margin: 0px 10rem;
+            cursor: pointer;
+            text-align: center;
+    }
+}
+@media (max-width: 500px)  {
+    .btn__sch {
+        margin: 0px 6rem;
+}
+}
+@media (max-width: 300px) {
+    .sch__3 {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        border-bottom: 2px solid #d3d3d3;
+        padding: 30px 0px;
+        text-align: center;
+        color: white;
+    }
+    .sch__p {
+        color: dodgerblue;
+        font-weight: 900;
+        letter-spacing: 0rem;
+    }
+    .sch__3 > li {
+        padding-bottom: 1rem;
+        line-height: 1rem;
+    }
+    .btn__sch {
+        margin: 0px 4rem;
+
+        cursor: pointer;
+    }
+
+}
+
+/************* KOH-CHANG (PAGE)  ********/
+
+.bck__smoke {
+    background-color: #f0f0f0f0;
+}
+
+
+
+.kohchang__header {
+    background-image: url('../images/koh-chang.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.header__koh1 {
+    color: white;
+    font-size: 7.8rem;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+}
+.header__desc__koh {
+    color: #cbffe2;
+    font-family: 'Noto Serif KR', sans-serif;
+    opacity: 0.6;
+    font-size: 3rem;
+}
+/************ SECTION (2) */
+.section__2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.koh__container {
+    max-width: 30rem;
+    padding-left: 3rem;
+}
+@media(max-width: 900px) {
+    .koh__container {
+        max-width: 60rem;
+        padding-left: 0rem;
+    }
+}
+
+.koh__header {
+    font-size: 3.6rem;
+    font-family: 'Noto Serif KR', sans-serif;
+    line-height: 5rem;
+    padding-bottom: 1rem;
+}
+.desc__p {
+    line-height: 2.1rem;
+}
+.kohchang__desc {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8rem;
+}
+
+.img__koh {
+    width: 46%;
+    height: 90%;
+    padding-top: 3rem;
+}
+.triangle__koh {
+    width: 0;
+    position: relative;
+    top: -10px;
+    left: 30rem;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #cbffe2;
+    opacity: 0.6;
+}
+/******************* Section (3) */
+
+.section___3 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.header__koh__trips {
+    color: #cbffe2;
+    font-size: 2.6rem;
+    text-align: center;
+    letter-spacing: 0.6rem;
+    position: relative;
+    top: 1rem;
+    padding-bottom: 2rem;
+}
+.header__koh__trips > h3 {
+    opacity: 0;
+}
+.cards__schedule {
+    background: url('../images/pascal-van-de-vendel-570189-unsplash.jpg');
+    background-position: center;
+    color: white;
+    height: 34rem;
+    width: 20rem;
+    border-radius: 30px;
+    box-shadow:  10px 2px 10px black;
+}
+.cards__schedule > h2 {
+    font-family: 'Noto Serif KR', sans-serif;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.cards__container__sch > li {
+    list-style-type: none;
+    font-weight: 900;
+}
+.cards__schedule > .cards__1 {
+    line-height: 3rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.cards__schedule > .cards__2 {
+    line-height: 1.72rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.cards__schedule > .cards__3 {
+    line-height: 2.2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .section__2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .img__koh {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 2rem 0px;
+    }
+    .koh__container {
+        padding: 0px 3rem;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .section__schedule {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .section___3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .section___3 {
+        padding: 0px;
+    }
+    .kohchang__header  {
+        height: 100vh;
+    }
+    .header__desc__koh {
+        opacity: 0.6;
+        font-size: 2rem;
+        position: relative;
+        top: -100px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 800px) { 
+    
+    .about__content {
+        display: none;
+    }
+}
+/************ RATES (3) */
+.main__header__rates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 1.7rem;
+}
+.koh__container__rates {
+    max-width: 30rem;
+    padding-left: 3rem;
+}
+.koh__container__rates > p {
+    line-height: 2.3rem;
+}
+.koh__container__rates > ol {
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+.triangle__koh_one {
+    width: 0;
+    position: relative;
+    top: -37rem;
+    right: 10.3rem;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #cbffe2;
+    opacity: 0.6;
+}
+
+
+@media (max-width: 1100px) { 
+    .triangle__koh {
+        display: none;
+    }
+    .triangle__koh_one {
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) { 
+    .koh__container__rates {
+        padding: 2rem 2rem;
+    }
+} 
+
+
+
+
+
+
+/************** (DAY TRIPS ----- Header) */
+
+.daytrip__header {
+    background-image: url('../images/divesites.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.daytrips__h1 {
+    padding-top: 8.5rem;
+}
+
+.daytrips__h1 > h1 {
+    text-align: left;
+    padding-left: 3rem;
+    font-family: 'Leckerli One', cursive;
+    color: white;
+    font-size: 5.7rem;
+    letter-spacing: 0.7rem;
+}
+
+.daytrips__container__section {
+    display: flex;
+    flex-direction: row;
+}
+.daytripts__container__desc {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.daytripts__container__desc > h2 {
+    padding-bottom: 2rem;
+    line-height: 1.8rem;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+.daytripts__container__desc > ul {
+    list-style-type: none;
+}
+.container__carousel_daytrips__one {
+    max-width: 37rem;
+    padding-right: 2rem;
+}
+.container__carousel_daytrips {
+    max-width: 37rem;
+    padding-left: 2rem;
+}
+
+
+
+@media(max-width: 900px) {
+    
+    .daytrips__container__section {
+        flex-direction: column;
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+    }
+    .container__carousel_daytrips__one {
+        padding: 0px 3rem;
+    }
+    .container__carousel_daytrips {
+        padding:0px 3rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .daytrip__header {
+        height: 80vh;
+        padding: 0px;
+    }
+}
+@media(max-width: 500px) {
+    .daytrip__header {
+        height: 40vh;
+        padding: 0px;
+    }
+
+    .daytrips__h1 > h1 {
+        font-size: 3rem;
+        letter-spacing: 0.7rem;
+    }
+
+}
+
+/* *********** Dive Sites (1) */
+.opacity__divesites {
+    background-color: #00acc1;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.divesites__background {
+    background-image: url('../images/boats__image_2.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.divesites__header {
+    border-radius: 30px;
+    padding: 0px 2.5rem;
+    font-size: 8rem;
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    color: white;
+    box-shadow: 9px 10px 10px black;
+}
+
+
+
+
+.video__divesite {
+    display: block;
+}
+
+
+@media (max-width: 700px) {
+
+    .video__divesite {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+
+    }
+    .divesites__background {
+        height: 60vh;
+    }
+    .divesites__header {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .video__divesite {
+        width: 10%;
+    }
+}
+
+
+/***** Language Picker Button */
+
+.selector {
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 1rem;
+    background-color: #fff;
+    display: inline-block;
+    width: 7%;
+    padding: 0;
+    margin: 15px 0 0 0;
+    height: 40px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    vertical-align: top;
+    float: left;
+    border-radius: 5px;
+    z-index: 20;
+    background: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    margin-left: -4rem;
+    position: relative;
+    top: -0.4rem;
+}
+
+.container__lang {
+    display: flex;
+
+}
+.selector:hover {
+    height: 84px;
+}
+
+.selector > li {
+    display: block;
+    padding: 0px 20px;
+    line-height: 40px;
+    border-top: 1px solid #eee;
+}
+
+.selector > li:hover {
+    background-color: #eee;
+}
+
+
+.selector li:first-child {
+    border:none;
+}
+
+.lang_logo {
+    width: 450%;
+    position: relative;
+    right: 11px;
+    top: 4px;
+}
+
+.lang__span {
+/* padding-left: 10px;
+
+position: relative;
+top: -5px; */
+display: none;
+}
+@media (max-width: 960px) {
+    .selector {
+        width: 20%;
+    }
+
+    .lang_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1.2rem;
+    }
+        .lang_logo {
+            width: 400%;
+            position: relative;
+            right: 11px;
+            top: 3px;
+        }
+        .lang__span {display: none;}
+}
+
+
+
+/************* Dive Sites CONTENT */
+.dive_sites__content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.divesites__princess_container {
+    display: flex;
+    flex-direction: column;
+}
+.divesites__princess_container > p {
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-left: 6rem;
+}
+.header__princess {
+    padding: 5rem 0px;
+    font-size: 3rem;
+}
+.deck__picture{ 
+    width: 70%;
+    padding-right: 7rem;
+}
+.deck__picture_1 {
+    width: 130%;
+    padding-right: 17rem;
+}
+.divesites__container{
+    margin: 0px auto;
+    display: block;
+}
+
+.divesites__princess_container__2 {
+    display: flex;
+    flex-direction: column;
+}
+.divesites__princess_container__2 > p {
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-left: 6rem;
+}
+
+@media (max-width: 990px) {
+    .divesites__princess_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .dive_sites__content1 {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divesites__princess_container > p {
+        text-align: center;
+        line-height: 3rem;
+        padding-top: 2rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    .dive__sites__container1 {
+        flex-direction: row;
+    }
+    .deck__picture{ 
+        width: 40%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 3rem 0px;
+    }
+    .deck__picture_1 {
+        width: 60%;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding: 3rem 0px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .divesites__princess_container > p {
+        text-align: center;
+        line-height: 3rem;
+        padding: 0px 10rem;
+    }
+    .divesites__princess_container__2 > p {
+        text-align: center;
+        line-height: 3rem;
+        padding: 0px 10rem;
+        
+    }
+}
+
+.loader__img {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+.error_message {
+    color: #e91e63;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 860px) {
+    .error_message {
+        color: #e91e63;
+        font-size: 1rem;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+}
+
+.contact__container
+/********* Error Inputs */
+
+.err_content {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.err__container {
+    background-color: #d3d3d3;
+    width: 200px;
+    height: 50px;
+}
+
+.notfound_container {
+    background-image: url('../images/pascal-van-de-vendel-570189-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.notfound_container > h2 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

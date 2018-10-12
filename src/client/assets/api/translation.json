@@ -1,0 +1,127 @@
+{
+    "brand": {
+        "title": ["NTC Dive Center Welcomes You", "ศูนย์ดำน้ำ NTC ต้อนรับคุณ"],
+        "subtitle": ["A local Dive Center", "ศูนย์ดำน้ำในท้องถิ่น"],
+        "btn": ["Itinerary", "การเดินทาง"],
+        "btn2": ["Contact", "ติดต่อ"]
+    },
+    "AboutUs":{
+        "title": ["About NTC Dive", "เกี่ยวกับ NTC Dive"],
+        "content": ["NTC Diving Center, considered a wonderful paradise for many people who dream of having a chance to experience the sea at Koh Chang,a small coral reef system located just in front of a timid beach that reveals itself during low tide.", "ศูนย์ดำน้ำ NTC ถือเป็นสวรรค์ที่ยอดเยี่ยมสำหรับหลาย ๆ คนที่ฝันถึง โอกาสสัมผัสทะเลที่เกาะช้าง, ระบบแนวปะการังขนาดเล็กที่ตั้งอยู่ด้านหน้าของชายหาดขี้ขลาดที่เผยให้เห็นตัวเองในช่วงน้ำลง"],
+        "subtitle1": ["Learn To Dive", "เรียนรู้การดำน้ำ"],
+        "content1": ["NTC Dive is the perfect place for beginners learning how to scuba dive, for students who plan to take their open water test out in the sea and also for people who wish to refresh their scuba diving skills", "NTC Dive เป็นสถานที่เหมาะสำหรับผู้เริ่มต้นเรียนรู้วิธีการดำน้ำ, สำหรับนักเรียนที่วางแผนจะเข้าเรียน ทดสอบน้ำเปิดออกในทะเลและสำหรับผู้ที่ต้องการ เพื่อฟื้นฟูทักษะการดำน้ำของพวกเขา"],
+        "btn": ["Boats", "เรือ"],
+        "subtitle2": ["Certification", "การรับรอง"],
+        "content2": ["We help all applicants who would like to become certified divers and instructors to achieve the best results.", "เราช่วยผู้สมัครทุกคนที่ต้องการเป็นนักดำน้ำและอาจารย์ที่ผ่านการรับรอง เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด"],
+        "subtitle3": ["Tours", "ทัวร์"],
+        "content3": ["Get away from daily routine and join us in a tour to the most amazing exotic places around the world.", "หลีกหนีจากกิจวัตรประจำวันและร่วมเดินทางไปกับสถานที่แปลกใหม่ที่น่าตื่นตาตื่นใจที่สุดทั่วโลก"],
+        "contact_us": ["Contact Us", "ติดต่อเรา"]
+    },
+    "Schedule": {
+        "title": ["Schedule & Rates","กำหนดการและราคา"],
+        "tripcode": ["Trip Code", "รหัสการเดินทาง"],
+        "dates": ["Dates", "วันที่"],
+        "Boat": ["Boat", "เรือ"],
+        "Itirenary": ["Itinerary", "การเดินทาง"],
+        "booking": ["Booking", "การจอง"],
+        "Avalibility": ["Availability", "ความพร้อมใช้งาน"],
+        "oct": ["October 2018", "ตุลาคม 2018"],
+        "nov": ["November 2018", "พฤศจิกายน 2018"],
+        "dec": ["December 2018", "ธันวาคม 2018"],
+        "jan": ["January 2018", "มกราคม 2018"],
+        "feb": ["February 2018", "กุมภาพันธ์ 2018"],
+        "march": ["March 2018", "มีนาคม 2018"],
+        "enquiry": ["Enquiry", "การสอบสวน"]
+    },
+    "KohChang": {
+        "title": ["Koh Chang", "เกาะช้าง"],
+        "subtitle": ["About", "เกี่ยวกับ"],
+        "content_1": ["Koh Chang is the largest and most popular of the islands in eastern Thailand.", "เกาะช้างเป็นเกาะที่มีขนาดใหญ่และเป็นที่นิยมมากที่สุดในภาคตะวันออกของประเทศไทย"],
+        "content_2": ["We offer an enjoyable trip to one of the best ship wreck dive site in a gulf of Thailand. You won't have to ask for the extra day off from you everyday job because our trip will only take an weekend to enjoy. No more time wasting on a ferry to take you from mainland to Koh Chang.", "เรานำเสนอการเดินทางที่สนุกสนานไปยังสถานที่ดำน้ำเรือสำราญที่ดีที่สุดแห่งหนึ่งในอ่าวไทย คุณจะไม่ต้องขอวันพิเศษจากงานประจำวันเพราะการเดินทางของเราจะใช้เวลาเพียงวันหยุดสุดสัปดาห์เท่านั้น ไม่ต้องเสียเวลากับเรือข้ามฟากเพื่อพาคุณจากแผ่นดินใหญ่มายังเกาะช้าง"],
+        "content_3": ["This 2 Days/Night trip is about you and the beautiful view of Koh Chang's underwater scene.", "การเดินทาง 2 วัน / คืนนี้เป็นเรื่องเกี่ยวกับตัวคุณและมุมมองที่สวยงามของฉากใต้น้ำของเกาะช้าง"],
+        
+        "subtitle2": ["Trips To Koh Chang", "ทริปไปเกาะช้าง"],
+        "subtitle_3": ["Friday", "วันศุกร์"],
+
+        "cards_1": ["Check in and Light Dinner", "เช็คอินและมื้อค่ำเบา ๆ"],
+        "cards_2": ["Departure from Rayong Dive Center", "ออกเดินทางจากศูนย์ดำน้ำระยอง"],
+
+        "cards_3": ["Wake up call & Light Breakfast", "บริการโทรปลุกและอาหารเช้าแบบเบา ๆ"],
+        "cards_4": ["1st Dive at HTMS Chang Wreck", "ดำน้ำครั้งแรกที่ HTMS Chang Wreck"],
+        "cards_5": ["Breakfast", "อาหารเช้า"],
+        "cards_6": ["2nd Dive at HTMS Chang Wreck", "ดำน้ำครั้งที่ 2 ที่ HTMS Chang Wreck"],
+        "cards_7": ["Lunch", "อาหารกลางวัน"],
+        "cards_8": ["3rd Dive at Koh Rang Sandhole", "ดำน้ำที่ 3 ที่อ่าวหินรัง"],
+        "cards_9": ["Snacks & Excursion to a Village on Koh Chang", "ขนมขบเคี้ยวและการท่องเที่ยวชมหมู่บ้านบนเกาะช้าง"],
+        "cards_10": ["Departure for Night Dive", "ออกเดินทางเพื่อดำน้ำกลางคืน"],
+        "cards_11": ["Night Dive at Blueberry Hill", "ดำน้ำกลางคืนที่ Blueberry Hill"],
+        "cards_12": ["Dinner", "อาหารเย็น"],
+
+        "cards_13": ["5th Dive at West Alhambra Rock", "ดำน้ำที่ 5 ที่ West Alhambra Rock"],
+        "cards_14": ["6th Dive at East Alhambra Rock", "ดำน้ำที่ 6 ที่ East Alhambra Rock"],
+        "cards_15": ["7th Dive", "ดำน้ำที่ 7"],
+        "cards_16": ["Arrive back at Rayong Dive Center", "กลับถึงศูนย์ดำน้ำระยอง"],
+        
+        "rate_title": ["Remarks", "หมายเหตุ"],
+        "rates_subtitle": ["Price: 10,900 THB/person","ราคา: 10,900 บาท / ท่าน"],
+
+        "rates_content1": ["This price is inclusive of all meals, and dive leader(s).", "ราคานี้รวมอาหารทุกมื้อและผู้นำการดำน้ำ"],
+        "rates_content2": ["Additional Charge might be add to following reason below:", "การเรียกเก็บเงินเพิ่มเติมอาจถูกเพิ่มลงในสาเหตุต่อไปนี้:"],
+        "rates_content3": ["Nitrox: 200 THB/Dive", "ไนโตร: 200 บาท / เที่ยว"],
+        "rates_content4": ["Diving Equipment for Rent: 500 THB/Set/Day", "อุปกรณ์ดำน้ำสำหรับเช่า: 500 บาท / ชุด / วัน"],
+        "rates_content5": ["National Park Entry Fees: Thai 240 THB - Foreigners 440 THB", "อุทยานแห่งชาติค่าเข้าชม: คนไทย 240 บาท - ชาวต่างชาติ 440 บาท"],
+        "rates_content6": ["Diving Insurance", "ประกันภัยดำน้ำ"],
+        "rates_content7": ["A deposit of 30% must be made in order to secure bookings.", "ต้องวางเงินมัดจำ 30% เพื่อเป็นการประกันการจอง"],
+        "rates_content8": ["The remaining balance of 70% must be made at least 15 days prior to date of departure","ส่วนที่เหลืออีก 70% ต้องทำล่วงหน้าอย่างน้อย 15 วันก่อนเดินทาง"]
+    },
+
+    "DayTrips": {
+        "title": ["Our Fleet", "กองเรือของเรา"],
+        "subtitle": ["Destination: Alhambra Rock or Koh Thalu", "ปลายทาง: Alhambra Rock หรือ Koh Thalu"],
+        "subtitle2": ["Dive Sites will be decided based on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาขึ้นอยู่กับสภาพอากาศในแต่ละวัน"],
+        "subtitle3": ["Package Include:", "แพคเกจรวม:"],
+
+        "lists__1": ["2 Fun Dives", "ดำน้ำ Fun 2"],
+        "lists__2": ["Lunch Onboard", "รับประทานอาหารเที่ยง"],
+        "lists__3": ["Snack and Drink Onboard", "ขนมขบเคี้ยวและเครื่องดื่ม"],
+        "lists__4": ["Dive Leader", "ผู้นำการดำน้ำ"],
+        "lists__5": ["Price: 2,500", "ราคา: 2,500"],
+        "lists__6": ["Price does not Include", "ราคาไม่รวม"],
+        "lists__7": ["National Park Fee (Thai = 40baht), (Foreigner = 200 baht)", "ค่าธรรมเนียมอุทยานแห่งชาติ (ไทย = 40 บาท), ชาวต่างชาติ = 200 บาท"],
+        "lists__8": ["Nitox 300 Baht/Dive", "Nitox 300 บาท / ครั้งดำน้ำ"],
+        "lists__9": ["Extra (3rd) dive 500 Baht", "ดำน้ำเสริม (3rd) 500 บาท"],
+        "lists__10": ["Equiment Rental 500 Baht/Day", "ค่าเช่าอุปกรณ์ 500 บาท / วัน"]
+    },
+
+    "DiveSites": {
+        "title": ["Non Diver Package", "แพ็คเกจ Non Diver"],
+        "subtitle": ["Dive Sites will be decided base on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาตามสภาพอากาศในแต่ละวัน"],
+        "subtitle1": ["Snorkeling Equipment", "อุปกรณ์ดำน้ำตื้น"],
+        "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"]
+    },
+
+    "Sites": {
+        "title": ["Dive Sites", "แหล่งดำน้ำ"],
+        "subtitle": ["January Princess", "มกราคมเจ้าหญิง"],
+        "content": ["Liveaboard boat with a bedroom for 20 divers. Each bedroom can accommodate four bunk bed with personal light and power outlet, private locker, and air conditioner. The ship equipped with a full-sized kitchen, Air conditioner salon, large dive deck, and outdoor dining room", "เรือดำน้ำพร้อมห้องนอนสำหรับนักดำน้ำ 20 ท่าน ห้องนอนแต่ละห้องสามารถรองรับเตียงสี่ชั้น 4 ที่มีไฟส่องสว่างและเต้าเสียบไฟส่วนตัวตู้เก็บของส่วนตัวและเครื่องปรับอากาศ เรือมีห้องครัวขนาดใหญ่ห้องโถงเครื่องปรับอากาศห้องรับแขกขนาดใหญ่และห้องรับประทานอาหารกลางแจ้ง"],
+        "content1": ["Day trip boat fully equipped with scuba diving equipment. The ship accommodates air conditioning Saloon on the main deck with six bunk beds for customer's comfort, and large open space on the upper floor.", "เรือท่องเที่ยวพร้อมอุปกรณ์ดำน้ำครบวงจร เรือรองรับเครื่องปรับอากาศ Saloon บนดาดฟ้าหลักพร้อมเตียงนอนหกชั้นเพื่อความสะดวกสบายของลูกค้าและพื้นที่เปิดโล่งขนาดใหญ่ที่ชั้นบน"]
+    },
+    "Contact": {
+        "contact": ["Contact", "ติดต่อ"],
+        "title":["Find us at the office", "หาเราได้ที่ออฟฟิศ"],
+        "address1": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon", "17 ถนนบางกรวย 4 ซอย 5 ถ. เอกชัย บางบอน"],
+        "address2": ["Bangkok, Thailand 10150", "กรุงเทพฯ 10150"],
+        "email": ["email", "อีเมล"],
+        "name": ["Full name...", "ชื่อเต็ม"],
+        "message": ["Message", "ข่าวสาร"],
+        "btn": ["SUBMIT", "เสนอ"]
+    },
+
+    "Footer": {
+        "address": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon Bangkok, Thailand 10150", "17 ถนนบางกรวย 4 ซอย 5 ถนนเอกชัย บางบอนกรุงเทพฯ 10150"],
+        "btn": ["Send Email", "ส่งอีเมล"],
+        "error": ["Error: Email Cannot be Empty", "ข้อผิดพลาด: อีเมลไม่ว่างเปล่า"]
+    }
+
+
+}
