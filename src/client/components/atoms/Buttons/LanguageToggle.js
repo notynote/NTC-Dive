@@ -19,12 +19,12 @@ class LanguageToggle extends React.Component {
     return (
       <ul className="selector">
       {languages.map(lang => (
-        <li key={lang.code} className='container__lang' >
+        <div key={lang.code} className='container__lang' >
           <img className='lang_logo' src={lang.img} 
           onClick={() => dispatchSwitchLang(lang.code)}
           alt='...'
           />
-        </li>
+        </div>
       ))}
     </ul>
     )

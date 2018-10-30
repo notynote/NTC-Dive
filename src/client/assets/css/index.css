@@ -1,12 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+/* Montserrat Bold -- Title */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:800'); */
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+@font-face {
+    font-family: 'Montserrat-bold', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:800');
+}
+
+@font-face {
+  font-family: 'Mill-Goudy';
+  src: url( 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy')
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
   }
-.about__items__one
+
 
   /********* BUTTONS (STYLES __ 1)  */
 
@@ -25,6 +44,18 @@
   }
 
 
+  .hover_link {
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    border-radius: 30px;
+    /* margin-bottom: -18rem; */
+  }
+  
+ 
+
+
+
 
 
 
@@ -38,24 +69,33 @@
     flex-direction:column ;
 }
 .brand__title {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Mill-Goudy';
   color: white;
-  font-size: 3rem;
-  padding-bottom: 2.6rem;
+  
+  font-size: 4rem;
+  padding-bottom: 9rem;
 }
 .brand__subtitle {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Mill-Goudy';
+  
   color: white;
   font-size: 2rem;
+}
+
+
+.btn__containers > span {
+  position: relative;
 
 }
+
+
 .brand__ntc__container {
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
     align-items: center;
-    line-height: 12rem;
     justify-content: center;
+    padding-top: 7rem;
+    line-height: 8rem;
 }
 .button__container_ntc {
   padding-top: 3rem;
@@ -67,13 +107,24 @@
   padding-right:  13rem;
 }
 
+@media (max-width: 970px) {
+  .brand__ntc__container {
+    line-height: 5rem;
+    padding-top: 9rem;
+  }
+  .brand__title {
+    /* padding-bottom: 6rem; */
+  }
+}
+
+
 
 @media (max-width: 700px) {
   .front__page__ntc {
     height: 80vh;
   }
   .brand__ntc__container  {
-    line-height: 8.5rem;
+    line-height: 7.2rem;
   }
 }
 
@@ -101,14 +152,19 @@
 }
 @media (max-width: 530px) {
   .brand__title {
-
     font-size: 1.5rem;
   }
-  .brand__ntc__container  {
-    line-height: 8rem;
+}
+@media (max-width: 380px) {
+
+  .brand__title {
+    font-size: 2rem;
+    line-height: 6rem;
+  }
+  .brand__subtitle {
+    display: none;
   }
 }
-
 
 
 h1 {
@@ -167,25 +223,30 @@ h1.aboutTitle:after {
 }
 
 .section__one_bck {
-  background-image: url('../images/instructor-with-tablet.jpg');
+  background: url('../images/Background\ for\ 5.jpg.JPG');
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .about__items__one {
   text-align: center;
+  padding-bottom: 5rem;
   line-height: 2.5rem;
+  background-color: #797979;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  background-color: black;
-  opacity: 0.78;
-  height: 70vh;
+  background: linear-gradient(
+    rgba(20,20,20, .7), 
+    rgba(20,20,20, .7));
+  height: 100vh;
   overflow: hidden;
 }
 .about__p {
@@ -218,8 +279,10 @@ h1.aboutTitle:after {
 .about__title {
     text-transform: uppercase;
     font-size: 2rem;
-    font-family: 'Leckerli One', cursive;
-    padding-bottom: 20px;
+    font-family: 'Montserrat-bold', sans-serif;
+    letter-spacing: 0.2rem;
+    
+    padding: 4rem 0rem;
 }
 .img__about {
     height: 50%;
@@ -231,7 +294,6 @@ h1.aboutTitle:after {
 @media (max-width: 1000px) {
   .about__items__one {
     text-align: center;
-    padding: 0px;
   }
 
 }
@@ -246,9 +308,9 @@ h1.aboutTitle:after {
         padding-top: 25.5px;
       }
       .about__items__one {
-        padding-bottom: 2rem;
+        /* padding-bottom: 2rem; */
         max-width: none;
-        padding-top: 25.5px;
+        /* padding-top: 25.5px; */
       }
       .about__items__two {
         padding-bottom: 2rem;
@@ -336,12 +398,16 @@ h1.reviews__header:after {
   display: flex;
   align-content: center;
   justify-content: space-around;
+  padding: 0rem 5rem;
 }
 .footer__content__copy {
   text-align: center;
   letter-spacing: 0.2rem;
   line-height: 2.5rem;
   max-width: 500px;
+  padding-top: 1.8rem;
+  padding-left:8rem;
+  padding-right:4rem;
 }
 .logo__footer {
   width: 14%;
@@ -961,3 +1027,10 @@ button.slick-arrow.slick-next {
   height: 15px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
   top: -3px; }
+
+
+
+
+
+
+

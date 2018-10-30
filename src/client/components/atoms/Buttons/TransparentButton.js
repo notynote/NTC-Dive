@@ -26,6 +26,7 @@ function TransparentButton({ ...props }) {
     link,
     justIcon,
     className,
+    text,
     style,
     ...rest
   } = props;
@@ -43,7 +44,11 @@ function TransparentButton({ ...props }) {
     [className]: className
   });
   return (
-    <Button  {...rest} style={style} className={btnClasses}>
+    <Button  
+    {...rest} style={style} className={btnClasses}
+    title={text}
+    color={color}
+    >
       {children}
     </Button>
   );
@@ -72,7 +77,8 @@ TransparentButton.propTypes = {
   disabled: PropTypes.bool,
   block: PropTypes.bool,
   link: PropTypes.bool,
-  justIcon: PropTypes.bool
+  justIcon: PropTypes.bool,
+  text: PropTypes.string
 };
 
 export default withStyles(buttonStyle)(TransparentButton);

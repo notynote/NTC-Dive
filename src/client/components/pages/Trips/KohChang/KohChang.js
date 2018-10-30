@@ -4,6 +4,9 @@ import { Schedule } from "./Schedule";
 import { Rates } from './Rates'
 import { getTranslate } from 'react-localize-redux'
 import { connect } from "react-redux";
+import ImageGallery from 'react-image-gallery';
+import { LinkButton } from '../../../atoms/Buttons/LinkButton';
+import { KohChangimages } from "../../../../assets/api/api";
 
 
 class KohChang extends Component {
@@ -30,15 +33,15 @@ class KohChang extends Component {
                     <br />
                     <br />
                      {translate("KohChang.content_3")}
-
                     </p>
+                    <div style={{ paddingTop: 26 }}  />
+             <LinkButton backgroundColor="#e91e63" links='/dive-sites' 
+             text={translate("KohChang.btn_links")}/>
                 <div className='triangle__koh' />
           </div>
-                <img
-                src={require('../../../../assets/images/jan-traid-375105-unsplash.jpg')}
-                className='img__koh'
-                alt='...'
-                />
+          <div style={{ paddingTop: 50 }} >
+                <ImageGallery items={KohChangimages} />
+          </div>
                 </div>
         </div>
 

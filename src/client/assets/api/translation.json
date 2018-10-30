@@ -1,21 +1,23 @@
 {
     "brand": {
         "title": ["NTC Dive Center Welcomes You", "ศูนย์ดำน้ำ NTC ต้อนรับคุณ"],
-        "subtitle": ["A local Dive Center", "ศูนย์ดำน้ำในท้องถิ่น"],
+        "subtitle": ["A Local Dive Center", "ศูนย์ดำน้ำในท้องถิ่น"],
         "btn": ["Itinerary", "การเดินทาง"],
-        "btn2": ["Contact", "ติดต่อ"]
+        "btn2": ["Contact", "ติดต่อ"],
+        "know_about": ["Know More About Us ➡", "รู้เพิ่มเติมเกี่ยวกับเรา ➡"]
     },
     "AboutUs":{
         "title": ["About NTC Dive", "เกี่ยวกับ NTC Dive"],
-        "content": ["NTC Diving Center, considered a wonderful paradise for many people who dream of having a chance to experience the sea at Koh Chang,a small coral reef system located just in front of a timid beach that reveals itself during low tide.", "ศูนย์ดำน้ำ NTC ถือเป็นสวรรค์ที่ยอดเยี่ยมสำหรับหลาย ๆ คนที่ฝันถึง โอกาสสัมผัสทะเลที่เกาะช้าง, ระบบแนวปะการังขนาดเล็กที่ตั้งอยู่ด้านหน้าของชายหาดขี้ขลาดที่เผยให้เห็นตัวเองในช่วงน้ำลง"],
-        "subtitle1": ["Learn To Dive", "เรียนรู้การดำน้ำ"],
-        "content1": ["NTC Dive is the perfect place for beginners learning how to scuba dive, for students who plan to take their open water test out in the sea and also for people who wish to refresh their scuba diving skills", "NTC Dive เป็นสถานที่เหมาะสำหรับผู้เริ่มต้นเรียนรู้วิธีการดำน้ำ, สำหรับนักเรียนที่วางแผนจะเข้าเรียน ทดสอบน้ำเปิดออกในทะเลและสำหรับผู้ที่ต้องการ เพื่อฟื้นฟูทักษะการดำน้ำของพวกเขา"],
-        "btn": ["Boats", "เรือ"],
-        "subtitle2": ["Certification", "การรับรอง"],
-        "content2": ["We help all applicants who would like to become certified divers and instructors to achieve the best results.", "เราช่วยผู้สมัครทุกคนที่ต้องการเป็นนักดำน้ำและอาจารย์ที่ผ่านการรับรอง เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด"],
-        "subtitle3": ["Tours", "ทัวร์"],
-        "content3": ["Get away from daily routine and join us in a tour to the most amazing exotic places around the world.", "หลีกหนีจากกิจวัตรประจำวันและร่วมเดินทางไปกับสถานที่แปลกใหม่ที่น่าตื่นตาตื่นใจที่สุดทั่วโลก"],
-        "contact_us": ["Contact Us", "ติดต่อเรา"]
+        "content": ["NTC stands for Nawee Taweechoke. We provide a liveaboard and day trip for scuba diving service in Eastern Thailand. Our mission is to bring scuba divers to a stunning dive sites with ease. Our fleet equipped with the professional staff and scuba diving equipment to suit everybody needs. We are looking forward to serving you on an unforgettable journey.","NTC ย่อมาจาก Nawee Taweechoke เราให้บริการการดำน้ำตื้นและบริการนำเที่ยวแบบวันเดียวสำหรับนักดำน้ำในภาคตะวันออกของประเทศไทย ภารกิจของเราคือการนำนักดำน้ำไปดำน้ำที่สถานที่ดำน้ำที่สวยงามได้อย่างง่ายดาย ฝูงบินของเราพร้อมกับพนักงานมืออาชีพและอุปกรณ์ดำน้ำเพื่อตอบสนองทุกความต้องการ เรากำลังรอคอยที่จะให้บริการคุณในการเดินทางที่น่าจดจำ"],
+        "subtitle1": ["Our Destination", "ปลายทางของเรา"],
+        "content1": ["We provide both two days liveaboard trip every weekend during a diving season. Meanwhile, we also have a one day trip for a diver who has less time to spare. Learn more about our destination", "เราให้บริการการท่องเที่ยวสดทั้งสองวันในช่วงสุดสัปดาห์ในช่วงฤดูดำน้ำ ในขณะเดียวกันเรายังมีการเดินทางวันหนึ่งสำหรับนักดำน้ำที่มีเวลาว่างน้อยลง เรียนรู้เพิ่มเติมเกี่ยวกับจุดหมายปลายทางของเรา"],
+        "btn": ["Destination", "ปลายทาง"],
+        "subtitle2": ["Destination", "ปลายทาง"],
+        "contact_us": ["Check Out More", "เช็คเอาท์เพิ่มเติม"]
+    },
+    "ContactFormHome": {
+        "contact": ["Contact Us", "ติดต่อเรา"],
+        "contact_subtitle": ["Feel free to drop us a line below!", "รู้สึกอิสระที่จะปล่อยเราบรรทัดด้านล่าง!"]
     },
     "Schedule": {
         "title": ["Schedule & Rates","กำหนดการและราคา"],
@@ -72,7 +74,8 @@
         "rates_content5": ["National Park Entry Fees: Thai 240 THB - Foreigners 440 THB", "อุทยานแห่งชาติค่าเข้าชม: คนไทย 240 บาท - ชาวต่างชาติ 440 บาท"],
         "rates_content6": ["Diving Insurance", "ประกันภัยดำน้ำ"],
         "rates_content7": ["A deposit of 30% must be made in order to secure bookings.", "ต้องวางเงินมัดจำ 30% เพื่อเป็นการประกันการจอง"],
-        "rates_content8": ["The remaining balance of 70% must be made at least 15 days prior to date of departure","ส่วนที่เหลืออีก 70% ต้องทำล่วงหน้าอย่างน้อย 15 วันก่อนเดินทาง"]
+        "rates_content8": ["The remaining balance of 70% must be made at least 15 days prior to date of departure","ส่วนที่เหลืออีก 70% ต้องทำล่วงหน้าอย่างน้อย 15 วันก่อนเดินทาง"],
+        "btn_links": ["Learn More About Dive Sites", "เรียนรู้เพิ่มเติมเกี่ยวกับ Dive Sites"]
     },
 
     "DayTrips": {
@@ -100,6 +103,16 @@
         "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"]
     },
 
+    "SitesContainer": {
+        "title_1": ["Alhambra Rock", ""],
+        "title_2": ["Blueberry Hill", ""],
+        "title_3": ["Hin Luk Bath", ""],
+        "title_4": ["HTMS Chang Wreck", ""],
+        "title_5": ["Koh Rang", ""],
+        "title_6": ["Thalu Island", ""]
+
+    },
+
     "Sites": {
         "title": ["Dive Sites", "แหล่งดำน้ำ"],
         "subtitle": ["January Princess", "มกราคมเจ้าหญิง"],
@@ -116,6 +129,8 @@
         "message": ["Message", "ข่าวสาร"],
         "btn": ["SUBMIT", "เสนอ"]
     },
+
+    
 
     "Footer": {
         "address": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon Bangkok, Thailand 10150", "17 ถนนบางกรวย 4 ซอย 5 ถนนเอกชัย บางบอนกรุงเทพฯ 10150"],

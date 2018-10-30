@@ -105,7 +105,7 @@ export const submitFormToFirebase = (name, email, message) => {
         console.log(usersInformation)
         dispatch(addMessage(usersInformation))
 
-         base.push('Contact Data Page', {
+         base.push('Contact Data From Users', {
             data: usersInformation,
             then(err) {
                 if (!err) {
@@ -117,3 +117,5 @@ export const submitFormToFirebase = (name, email, message) => {
           })
     }
 }
+
+

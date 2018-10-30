@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 
 export const LinkButton = ({ text, backgroundColor, links }) => (
-    <Link className='link__btn' to={`${links}`}
+    <Link className='hover_link' to={`${links}`}
     style={{ backgroundColor: `${backgroundColor}` }}>
-          {text}
+          <span>{text}</span>
     </Link>
 )
 
 LinkButton.propTypes = {
-    text: PropTypes.string.isRequired,
+    text: PropTypes.object.isRequired,
     links: PropTypes.string.isRequired,
     backgroundColor: PropTypes.string.isRequired,
 }

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
 import Footer from '../../molecules/Footer/Footer'
-import { Link } from 'react-router-dom'
+
 import AboutUs from './AboutUs'
 
 import { getTranslate } from "react-localize-redux";
@@ -9,6 +9,8 @@ import { getTranslate } from "react-localize-redux";
 
 import { connect } from "react-redux";
 import { changeLanguage } from '../../../../backend/dux/actions/appActions'
+import { LinkButton } from '../../atoms/Buttons/LinkButton';
+import ContactHome from './ContactHome';
 
 
 
@@ -24,23 +26,24 @@ class Home extends Component {
     return (
         <Fragment>
          <div className='front__page__ntc' >
-              <div className='brand__ntc__container' >
+              <div className='brand__ntc__container'>
+              <div>
                 <h1 className='brand__title'>{translate("brand.title")}</h1>
-                  <h3 className='brand__subtitle' >{translate("brand.subtitle")}</h3>
               </div>
-                  <div className='button__container_ntc' >
-                      <Link className='ite__sch' to={'/trips/:Koh-Change-Liveaboard'} >
-                         {translate("brand.btn")}
-                      </Link>
-                   <Link className='ite__sch__blue' to='/contact' >
-                         {translate("brand.btn2")}
-                      </Link>
+                  <div className='btn__containers' >
+                    <h3 className='brand__subtitle' >{translate("brand.subtitle")}</h3>
                   </div>
+                  <div  >
+                    <LinkButton backgroundColor="#e91e63" links='/' text={translate("brand.know_about")}/>
+                  </div> 
+              </div>
           </div>
             <AboutUs translate={translate} />
+            <ContactHome translate={translate}/>
             <Footer translate={translate}
             lang={languages}
             />
+
           </Fragment>
     )
   }

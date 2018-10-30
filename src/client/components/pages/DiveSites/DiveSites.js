@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react'
-import ReactPlayer from 'react-player'
-import video1 from '../../../assets/videos/mv penpisut video.mp4'
-import video2 from '../../../assets/videos/january__princess.mp4'
+import React, { Component, Fragment,  } from 'react'
+
 import { getTranslate } from 'react-localize-redux';
 import { connect } from 'react-redux';
+import { CardImages } from '../../molecules/Cards/CardImages';
+import Module from '../../molecules/Module';
 
 
 
@@ -25,53 +25,70 @@ class DiveSites extends Component {
       </div>
     </header>
 
+        <section>
+          <div style={{ paddingTop: 40, }} >
+            <h1>Check Out Our Dive Sites</h1>
+          </div>
+            <div className='container__section__divesites' >
+              <CardImages
+                  text={translate("SitesContainer.title_1")}
+                  img={require('../../../assets/images/IMG_0797.JPG')}>
+              <Module 
+              title={translate("SitesContainer.title_1")}
+              />
+              </CardImages>
 
-      <section className='dive__sites__container1' >
-                <h1 className='header__princess' >{translate("Sites.subtitle")}</h1>
-          <div className='dive_sites__content1' >
-          <div className='img__dive_sites' >
-              <img src={require("../../../assets/images/deck_princess.JPG")} 
-              alt='...'
-              className='deck__picture'
+
+              <CardImages
+                  text={translate("SitesContainer.title_2")}
+                  img={require('../../../assets/images/IMG_0800.JPG')}>
+                <Module 
+              title={translate("SitesContainer.title_2")}
               />
-              </div>
-     <div className='divesites__princess_container'>
-          <div className='divesites__container' >
-                  <ReactPlayer url={video2}
-                    playing={true}
-                    loop={true}
-                    className='video__1'
-                    />
-                    </div>
-                    <p>{translate("Sites.content")}</p>
-            </div>
-         </div>
-     </section>
-      <section className='dive__sites__container1' >
-                <h1 className='header__princess' >MV. Pepisut</h1>
-          <div className='dive_sites__content1' >
-          <div className='img__dive_sites' >
-              <img src={require("../../../assets/images/deck_pepisut.JPG")} 
-              alt='...'
-              className='deck__picture_1'
+              </CardImages>
+
+              <CardImages
+                  text={translate("SitesContainer.title_3")}
+                  img={require('../../../assets/images/IMG_0801.JPG')}>
+                 <Module 
+                  title={translate("SitesContainer.title_2")}
               />
-              </div>
-     <div className='divesites__princess_container__2'>
-          <div className='divesites__container' >
-                  <ReactPlayer url={video1}
-                    playing={true}
-                    loop={true}
-                    className='video__1'
-                    />
-                    </div>
-                    <p>{translate("Sites.content1")}</p>
+              </CardImages>
             </div>
-         </div>
-     </section>
+
+            <div className='container__section__divesites' >
+              <CardImages
+                  text={translate("SitesContainer.title_4")}
+                  img={require('../../../assets/images/IMG_0798.JPG')}>
+                 <Module 
+                  title={translate("SitesContainer.title_4")}
+              />
+              </CardImages>
+              <CardImages
+                  text={translate("SitesContainer.title_5")}
+                  img={require('../../../assets/images/IMG_0802.PNG')}>
+                 <Module 
+                  title={translate("SitesContainer.title_5")}
+              />
+              </CardImages>
+              <CardImages
+                  text={translate("SitesContainer.title_6")}
+                  img={require('../../../assets/images/IMG_0799.JPG')}>
+                 <Module 
+                  title={translate("SitesContainer.title_6")}
+              />
+              </CardImages>
+            </div>
+        </section>
     </Fragment>
     )
   }
 }
+
+
+
+
+
 
 const mapStateToProps = state => ({
   translate: getTranslate(state.locale),
