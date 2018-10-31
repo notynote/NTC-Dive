@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from 'react'
+import React, { Fragment } from 'react'
 
 import { Link } from 'react-router-dom'
-import ReactPlayer from 'react-player'
-class AboutUs extends Component {
+import YouTubePlayer from 'react-player/lib/players/YouTube'
+class AboutUs extends React.PureComponent {
   render() {
       const { translate } = this.props;
     return (
@@ -15,7 +15,7 @@ class AboutUs extends Component {
                         </p>
                     </div>
                     </div>
-                <div className='section__2 about__section__dive__learn' >
+                <div className=' about__section__dive__learn' >
                     <div className='koh__containers ' >
                         <h2 className='koh__header__about' >{translate("AboutUs.subtitle1")}</h2>
                        <p className='tours__p__about__one' >
@@ -33,15 +33,15 @@ class AboutUs extends Component {
       <div className='section__one_bck '>
          <div className='about__items__one'>
           <h4 className='about__title'>{translate("AboutUs.subtitle2")}</h4>
-
           <div className='divesites__princess_container'>
-                        <ReactPlayer url={'http://www.youtube.com/watch?v=W4BH4cV0tA0'}
+                        <YouTubePlayer url={'http://www.youtube.com/watch?v=W4BH4cV0tA0'}
                             playing={false}
                             loop={false}
                             className='video__1'
+                            width='100%'
+                            height='100%'
                             />
-                            </div>
-
+                      </div>
                 <div style={{ position: 'relative', top: 50 }} >
                 <Link className='ite__sch__blue' to='/dive-sites' >
                          {translate("AboutUs.contact_us")}
@@ -49,8 +49,6 @@ class AboutUs extends Component {
                 </div>
             </div>
          </div>
-
-
             </Fragment>
     )
   }

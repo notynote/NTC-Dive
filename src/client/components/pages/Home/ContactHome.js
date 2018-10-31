@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import url1 from '../../../assets/images/four-divers.jpg'
 import { connect } from 'react-redux';
 import FormContact from '../../organisms/Contact/FormContact'
 
-class ContactHome extends Component {
+class ContactHome extends React.PureComponent {
 
   render() {
 	const { translate } = this.props;
     return (
-        <div class="container-contact100">
+        <div className="container-contact100">
 		<div className="wrap-contact100">
 			<div className="contact100-form-title" style={{ backgroundImage:`url(${url1})` }}>
 				<span className="contact100-form-title-1">

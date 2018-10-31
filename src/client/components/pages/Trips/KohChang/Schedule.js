@@ -2,9 +2,7 @@ import React from "react";
 
 export const Schedule = ({ translate }) => (
     <div className='section__schedule' >
-    <div className='header__koh__trips' >
-         <h3>{translate("KohChang.subtitle2")}</h3>
-    </div>
+
         <div className='section___3'>
                 <div className='cards__schedule' >
                     <h2>{translate("KohChang.subtitle_3")}</h2>
@@ -15,6 +13,7 @@ export const Schedule = ({ translate }) => (
                 </div>
                 <br />
                 <br />
+                <div style={{ paddingTop: 30 }} />
                 <div className='cards__schedule' >
                     <h2>Saturday</h2>
                     <ul className='cards__container__sch cards__2' >
@@ -32,6 +31,7 @@ export const Schedule = ({ translate }) => (
                 </div>
                 <br />
                 <br />
+                <div style={{ paddingTop: 30 }} />
                 <div className='cards__schedule' >
                     <h2>Sunday</h2>
                     <ul className='cards__container__sch cards__3' >

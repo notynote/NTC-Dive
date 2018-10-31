@@ -1,15 +1,17 @@
 import React, { Fragment } from 'react'
-
+import { LinkButton } from '../../../atoms/Buttons/LinkButton';
 export const Rates = ({ translate }) => (
 <Fragment>
 
 <div className="section">
 <div className='section__2' >
+            <div className='image__rates' >
            <img
            src={require('../../../../assets/images/fish_koh.jpeg')}
            className='img__koh'
            alt='...'
            />
+           </div>
      <div className='koh__container__rates' >
            <h2 className='koh__header' >{translate("KohChang.rate_title")}</h2>
                    <p>
@@ -31,6 +33,10 @@ export const Rates = ({ translate }) => (
         <br />
     {translate("KohChang.rates_content8")}
         </p>
+        <div className='btn_con_link' >
+        <LinkButton backgroundColor="#e91e63" links='/schedule'
+             text={translate("KohChang.btn_links_2")}/>
+             </div>
            <div className='triangle__koh_one' />
      </div>
    </div>
@@ -38,5 +44,3 @@ export const Rates = ({ translate }) => (
 
 </Fragment>
 )
-
-

@@ -62,6 +62,7 @@
 
 .about__section__dive__learn { 
     padding-bottom: 4rem;
+    text-align:center ;
 }
 
 /* Trips Styles */
@@ -180,6 +181,13 @@
     padding-bottom: 1rem;
     text-align: center;
 }
+@media (max-width: 400px) {
+    .koh__header__about {
+        font-size: 2.6rem;
+    }
+
+}
+
 /************* */
 
 
@@ -486,10 +494,11 @@
 .section__2 {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-items: flex-start;
     justify-content: space-around;
     padding-top: 5rem;
-    /* overflow: hidden; */
+    padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 .koh__container {
@@ -498,26 +507,49 @@
     padding: 0rem 5rem;
 }
 .koh__containers  {
-    max-width: 30rem;
-
+    padding-right: 10rem;
+    padding-left: 10rem;
+    text-align: center;
 }
+
+.gallery__kochchang {
+    padding-top:6rem;
+    padding-right: 2rem;
+}
+.gellery__rates {
+    padding-top: 50px;
+    padding-right: 20px;
+    
+}
+
 @media(max-width: 900px) {
     .koh__container {
         max-width: 100%;
         padding: 0rem 3rem;
         text-align: center;
     }
+ 
+    .gallery__kochchang {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
 }
+@media(max-width: 700px) {
 
+    .koh__containers  {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        text-align: center;
+    }
+}
 @media(max-width: 400px) {
     .koh__container {
         max-width: 150%;
         padding: 0rem 1rem;
         text-align: center;
-     
     }
-  
 
+    
 }
 
 
@@ -527,6 +559,7 @@
     font-family: 'Noto Serif KR', sans-serif;
     line-height: 5rem;
     padding-bottom: 1rem;
+
 }
 .desc__p {
     line-height: 2.1rem;
@@ -538,9 +571,11 @@
 }
 
 .img__koh {
-    width: 46%;
-    height: 90%;
+    width: 90%;
     padding-top: 3rem;
+}
+.image__rates {
+    padding-left: 1rem;
 }
 .triangle__koh {
     width: 0;
@@ -561,6 +596,7 @@
     align-content: space-around;
     justify-content: space-around;
 }
+
 .header__koh__trips {
     color: #cbffe2;
     font-size: 2.6rem;
@@ -582,6 +618,7 @@
     border-radius: 30px;
     box-shadow:  10px 2px 10px black;
 }
+
 .cards__schedule > h2 {
     font-family: 'Noto Serif KR', sans-serif;
     text-align: center;
@@ -616,8 +653,14 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 70%;
         padding: 2rem 0px;
+    }
+    .cards__schedule:last-child {
+        padding-bottom: 3rem;
+    }
+    .koh__header  {
+        padding-top: 2rem;
     }
 }
 
@@ -625,13 +668,17 @@
     .section__schedule {
         display: flex;
         flex-direction: column;
-        padding: 0px;
+        padding-top: 3rem;
     }
     .section___3 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         overflow: hidden;
+    }
+
+    .section___3:first-child {
+        padding-bottom: 3rem;
     }
 
 }
@@ -641,7 +688,10 @@
         padding: 0px;
     }
     .kohchang__header  {
-        height: 100vh;
+        height: 50vh;
+    }
+    .header__koh1 {
+        font-size: 4rem;
     }
     .header__desc__koh {
         opacity: 0.6;
@@ -666,11 +716,12 @@
     padding: 0px 1.7rem;
 }
 .koh__container__rates {
-    max-width: 30rem;
-    padding-left: 3rem;
+    width: 100%;
+    /* padding-left: 3rem; */
+    /* padding-right: 3rem; */
 }
 .koh__container__rates > p {
-    line-height: 2.3rem;
+    line-height: 1.8rem;
 }
 .koh__container__rates > ol {
     list-style-type: none;
@@ -679,8 +730,8 @@
 .triangle__koh_one {
     width: 0;
     position: relative;
-    top: -37rem;
-    right: 10.3rem;
+    top: -33rem;
+    right: 8.6rem;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
@@ -699,9 +750,10 @@
 
 }
 
-@media (max-width: 700px) { 
+@media (max-width: 900px) { 
     .koh__container__rates {
-        padding: 2rem 2rem;
+        text-align: center;
+        padding-bottom: 4rem;
     }
 } 
 
@@ -716,24 +768,27 @@
     background-image: url('../images/divesites.JPG');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 60vh;
 }
 .daytrips__h1 {
     padding-top: 8.5rem;
 }
 
 .daytrips__h1 > h1 {
-    text-align: left;
-    padding-left: 3rem;
-    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    font-family: 'Noto Serif KR', sans-serif;
     color: white;
     font-size: 5.7rem;
     letter-spacing: 0.7rem;
+    font-weight: bold;
 }
+
 
 .daytrips__container__section {
     display: flex;
     flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
 }
 .daytripts__container__desc {
     display: flex;
@@ -744,37 +799,75 @@
     padding-left: 3rem;
     padding-right: 3rem;
 }
+.daytripts__container__desc__second {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    padding-top: 4.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 .daytripts__container__desc > h2 {
     padding-bottom: 2rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+.daytripts__container__desc__second > h2 {
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 2rem;
     font-family: 'Noto Serif KR', sans-serif;
 }
 .daytripts__container__desc > ul {
     list-style-type: none;
 }
+.daytripts__container__desc__second > ul {
+    list-style-type: none;
+}
 .container__carousel_daytrips__one {
     max-width: 37rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
 .container__carousel_daytrips {
     max-width: 37rem;
-    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+.gallery__container__divetrip {
+    padding-top: 3rem;
+    padding-right: 3rem;
 }
 
 
-
 @media(max-width: 900px) {
-    
+    .daytripts__container__desc {
+        text-align: center;
+
+    }
+    .daytripts__container__desc__second {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
     .daytrips__container__section {
         flex-direction: column;
         border-bottom: 1px solid black;
         padding-bottom: 1rem;
+        padding-top: 0rem;
     }
     .container__carousel_daytrips__one {
-        padding: 0px 3rem;
+        padding: 3rem 0rem;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     .container__carousel_daytrips {
-        padding:0px 3rem;
+        padding: 2rem 0rem;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -794,8 +887,28 @@
         font-size: 3rem;
         letter-spacing: 0.7rem;
     }
-
 }
+
+@media (max-width: 490px) {
+    .daytrip__header {
+        padding-bottom: 3rem;
+    }
+    .daytrips__container__section {
+        overflow: hidden;
+    }
+
+    .container__carousel_daytrips__one {
+        padding: 3rem 2rem;
+        overflow: hidden;
+    }
+    .container__carousel_daytrips {
+        padding: 2rem 2rem;
+        overflow: hidden;
+    }
+}
+
+
+
 
 /* *********** Dive Sites (1) */
 
@@ -919,40 +1032,25 @@ display: none;
         width: 20%;
     }
 
-    .lang_container {
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 1rem; */
-    }
-        /* .lang_logo {
-            width: 400%;
-            position: relative;
-            right: 11px;
-            top: 3px;
-        } */
         .lang__span {display: none;}
 }
 
 
 
 /************* Dive Sites CONTENT */
-.dive_sites__content1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+.gallery__dive_sites {
+    padding: 0rem 5.6rem;
 }
 .divesites__princess_container {
-    display: flex;
-    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+
+
 .header__princess {
-    padding: 5rem 0px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .deck__picture{ 
     width: 70%;
@@ -965,6 +1063,18 @@ display: none;
 .divesites__container{
     margin: 0px auto;
     display: block;
+    padding:    2rem 4rem;
+    text-align: center;
+}
+.header__container__kohchang {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    /* font-family: Lato, 'sans-serif' */
+}
+.divesites__container > p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding-top: 2rem;
 }
 
 .divesites__princess_container__2 {
@@ -978,25 +1088,18 @@ display: none;
     padding-right: 5rem;
     padding-left: 6rem;
 }
+.dive__sites__container1 {
+    display: flex;
+    flex-direction: column;
+}
 
 @media (max-width: 990px) {
-    .divesites__princess_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-    .dive_sites__content1 {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+
+
 
     .dive__sites__container1 {
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
     }
     .deck__picture{ 
         width: 40%;
@@ -1016,21 +1119,21 @@ display: none;
     }
 }
 
-@media (max-width: 700px) {
-    .divesites__princess_container {
-        width: 100%;
-        /* height: 80%; */
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-}
+
 @media (max-width: 650px) {
     .divesites__princess_container__2 > p {
         text-align: center;
         line-height: 3rem;
         padding: 0px 10rem;
+    }
+    .divesites__princess_container {
+        position: relative;
         
+    }
+    .video__1 {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -1254,7 +1357,9 @@ display: none;
 }
 
 
-
+.btn_con_link {
+    padding-top: 4rem;
+}
 
 
 

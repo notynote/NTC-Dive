@@ -402,5 +402,24 @@
     }
   }
   
+  @media (max-width: 702px) { 
+    .container-contact100 {
+      padding: 0rem 0rem;
+     }
+     .wrap-contact100 {
+       width: 500px;
+     }
+  }
   
+  @media (max-width: 600px) {
+    .contact100-form-title-1 {
+      font-size: 2rem;
+    }
+    .container-contact100 {
+      min-height: 90vh;
+    }
+    .wrap-contact100 {
+      width: 400px;
+    }
+  }
   

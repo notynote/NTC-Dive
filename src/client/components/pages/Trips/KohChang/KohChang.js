@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from 'react'
-import Footer from '../../../molecules/Footer/Footer'
+// import Footer from '../../../molecules/Footer/Footer'
 import { Schedule } from "./Schedule";
 import { Rates } from './Rates'
 import { getTranslate } from 'react-localize-redux'
 import { connect } from "react-redux";
-import ImageGallery from 'react-image-gallery';
 import { LinkButton } from '../../../atoms/Buttons/LinkButton';
 import { KohChangimages } from "../../../../assets/api/api";
+import ImageGallery from 'react-image-gallery';
+import {DiveSitesContainer} from '../../../organisms/DiveSitesContainer';
 
 
 class KohChang extends Component {
@@ -39,7 +40,7 @@ class KohChang extends Component {
              text={translate("KohChang.btn_links")}/>
                 <div className='triangle__koh' />
           </div>
-          <div style={{ paddingTop: 50 }} >
+          <div className='gallery__kochchang' >
                 <ImageGallery items={KohChangimages} />
           </div>
                 </div>
@@ -47,7 +48,14 @@ class KohChang extends Component {
 
      <Schedule translate={translate} />
      <Rates translate={translate} />
-     <Footer />
+
+     <DiveSitesContainer 
+     translate={translate}
+     header={translate("Sites.subtitle")}
+     content={translate("Sites.content")}
+     >
+     <ImageGallery items={KohChangimages} />
+     </DiveSitesContainer>
     </div>
     </Fragment>
     )

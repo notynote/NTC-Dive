@@ -75,11 +75,12 @@
         "rates_content6": ["Diving Insurance", "ประกันภัยดำน้ำ"],
         "rates_content7": ["A deposit of 30% must be made in order to secure bookings.", "ต้องวางเงินมัดจำ 30% เพื่อเป็นการประกันการจอง"],
         "rates_content8": ["The remaining balance of 70% must be made at least 15 days prior to date of departure","ส่วนที่เหลืออีก 70% ต้องทำล่วงหน้าอย่างน้อย 15 วันก่อนเดินทาง"],
-        "btn_links": ["Learn More About Dive Sites", "เรียนรู้เพิ่มเติมเกี่ยวกับ Dive Sites"]
+        "btn_links": ["Learn More About Dive Sites", "เรียนรู้เพิ่มเติมเกี่ยวกับ Dive Sites"],
+        "btn_links_2": ["Check Schedule", "ตรวจสอบตารางเวลา"]
     },
 
     "DayTrips": {
-        "title": ["Our Fleet", "กองเรือของเรา"],
+        "title": ["One Day Trip", "ในวันเดินทาง"],
         "subtitle": ["Destination: Alhambra Rock or Koh Thalu", "ปลายทาง: Alhambra Rock หรือ Koh Thalu"],
         "subtitle2": ["Dive Sites will be decided based on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาขึ้นอยู่กับสภาพอากาศในแต่ละวัน"],
         "subtitle3": ["Package Include:", "แพคเกจรวม:"],
@@ -115,6 +116,7 @@
 
     "Sites": {
         "title": ["Dive Sites", "แหล่งดำน้ำ"],
+        "header": ["Boat Information", "ข้อมูลเรือ"],
         "subtitle": ["January Princess", "มกราคมเจ้าหญิง"],
         "content": ["Liveaboard boat with a bedroom for 20 divers. Each bedroom can accommodate four bunk bed with personal light and power outlet, private locker, and air conditioner. The ship equipped with a full-sized kitchen, Air conditioner salon, large dive deck, and outdoor dining room", "เรือดำน้ำพร้อมห้องนอนสำหรับนักดำน้ำ 20 ท่าน ห้องนอนแต่ละห้องสามารถรองรับเตียงสี่ชั้น 4 ที่มีไฟส่องสว่างและเต้าเสียบไฟส่วนตัวตู้เก็บของส่วนตัวและเครื่องปรับอากาศ เรือมีห้องครัวขนาดใหญ่ห้องโถงเครื่องปรับอากาศห้องรับแขกขนาดใหญ่และห้องรับประทานอาหารกลางแจ้ง"],
         "content1": ["Day trip boat fully equipped with scuba diving equipment. The ship accommodates air conditioning Saloon on the main deck with six bunk beds for customer's comfort, and large open space on the upper floor.", "เรือท่องเที่ยวพร้อมอุปกรณ์ดำน้ำครบวงจร เรือรองรับเครื่องปรับอากาศ Saloon บนดาดฟ้าหลักพร้อมเตียงนอนหกชั้นเพื่อความสะดวกสบายของลูกค้าและพื้นที่เปิดโล่งขนาดใหญ่ที่ชั้นบน"]
@@ -133,8 +135,9 @@
     
 
     "Footer": {
-        "address": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon Bangkok, Thailand 10150", "17 ถนนบางกรวย 4 ซอย 5 ถนนเอกชัย บางบอนกรุงเทพฯ 10150"],
-        "btn": ["Send Email", "ส่งอีเมล"],
+        "address": ["17 Bangbon 4 Soi 5, Ekachai Rd.", "17 ถนนบางกรวย 4 ซอย 5 ถ. เอกชัย"],
+        "address2": ["Bangbon Bangkok, Thailand 10150", "บางบอนกรุงเทพฯ 10150"],
+        "about_company": ["About the company", "เกี่ยวกับ บริษัท"],
         "error": ["Error: Email Cannot be Empty", "ข้อผิดพลาด: อีเมลไม่ว่างเปล่า"]
     }
 

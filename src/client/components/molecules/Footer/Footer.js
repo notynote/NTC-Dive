@@ -4,7 +4,7 @@ import {  getTranslate } from 'react-localize-redux'
 
 import { connect } from "react-redux";
 import { sendEmailFooter } from '../../../../backend/dux/actions/appActions'
-import FooterForm from '../../organisms/FooterForm';
+import { Link } from 'react-router-dom'
 
 
 class Footer extends Component {
@@ -13,24 +13,68 @@ class Footer extends Component {
     const { translate } = this.props;
     return (
     <Fragment>
-      <section className='footer__section'>
-         <div className='logo__footer__container' >
-            <img src={require('../../../assets/images/NTC.png')}
-            alt='logo__footer' className='logo__footer' />
+		<footer className="footer-distributed">
 
-          <div className='footer__content__copy' >
-                <p className='address__content' >{translate("Footer.address")}</p>
+            <div className="footer-left">
+            <div className='logo__container' >
+              <img
+              alt='...'
+              src={require('../../../assets/images/NTC.png')}
+              className='logo__footer'
+              />
+              </div>
+
+              <p className="footer-links">
+                <Link to='/' >
+                      Home 
+                </Link>
+                ·
+                <Link to='/schedule' >
+                   Schedule
+                </Link>
+                ·
+                <Link to='/dive-sites' >
+                Dive Sites
+                </Link>
+                ·
+                <Link to='/contact' >
+                Contact Us
+                </Link>
+              </p>
+
+              <p className="footer-company-name">NTC Dive &copy; 2018</p>
+            </div>
+
+            <div className="footer-center">
+
+              <div>
+                <i className="fa fa-map-marker"></i>
+                <p><span>{translate("Footer.address")}</span>{translate("Footer.address2")}</p>
+              </div>
+
+              <div>
+                <i className="fa fa-phone"></i>
                 <p>092 592 9744</p>
-          </div>
-          <FooterForm
-          translate={translate}
-          dispatchSendEmailToFirebase={this.props.dispatchSendEmailToFirebase}
-          />
-       </div>
-      </section>
-          <div className='copyright__footer' >
-                <p style={{ fontSize: '0.7rem' }} >&copy; Made By Williams</p>
-          </div>
+              </div>
+
+              <div>
+                <i className="fa fa-envelope"></i>
+                <p><a href="mailto:ntcdiveboat@gmail.com">ntcdiveboat@gmail.com</a></p>
+              </div>
+
+            </div>
+
+            <div className="footer-right">
+
+              <p className="footer-company-about">
+                <span>{translate("Footer.about_company")}</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+              </p>
+
+
+            </div>
+
+            </footer>
     </Fragment>
     )
   }
