@@ -8,7 +8,7 @@ import { LinkButton } from '../../../atoms/Buttons/LinkButton';
 import { KohChangimages } from "../../../../assets/api/api";
 import ImageGallery from 'react-image-gallery';
 import {DiveSitesContainer} from '../../../organisms/DiveSitesContainer';
-
+import Footer from '../../../molecules/Footer/Footer'
 
 class KohChang extends Component {
 
@@ -56,6 +56,7 @@ class KohChang extends Component {
      >
      <ImageGallery items={KohChangimages} />
      </DiveSitesContainer>
+     <Footer />
     </div>
     </Fragment>
     )

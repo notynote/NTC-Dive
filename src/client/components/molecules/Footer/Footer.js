@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Fragment } from 'react'
 
 import {  getTranslate } from 'react-localize-redux'
 
@@ -7,7 +7,7 @@ import { sendEmailFooter } from '../../../../backend/dux/actions/appActions'
 import { Link } from 'react-router-dom'
 
 
-class Footer extends Component {
+class Footer extends React.PureComponent {
 
   render() {
     const { translate } = this.props;
