@@ -13,6 +13,10 @@ import DiveSites from './client/components/pages/DiveSites/DiveSites'
 import { LocalizeProvider } from 'react-localize-redux'
 
 
+
+
+
+
 class App extends Component {
 
   render() {

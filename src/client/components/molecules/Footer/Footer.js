@@ -28,15 +28,15 @@ class Footer extends React.PureComponent {
                 <Link to='/' >
                       Home 
                 </Link>
-                ·
+                -
                 <Link to='/schedule' >
                    Schedule
                 </Link>
-                ·
+                -
                 <Link to='/dive-sites' >
                 Dive Sites
                 </Link>
-                ·
+                -
                 <Link to='/contact' >
                 Contact Us
                 </Link>
@@ -68,7 +68,7 @@ class Footer extends React.PureComponent {
 
               <p className="footer-company-about">
                 <span>{translate("Footer.about_company")}</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+               {translate("Footer.content")}
               </p>
 
 

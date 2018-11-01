@@ -4,12 +4,13 @@ import Footer from '../../molecules/Footer/Footer'
 
 import AboutUs from './AboutUs'
 
+
+
+
 import { getTranslate } from "react-localize-redux";
-
-
 import { connect } from "react-redux";
 import { changeLanguage } from '../../../../backend/dux/actions/appActions'
-import { LinkButton } from '../../atoms/Buttons/LinkButton';
+
 import ContactHome from './ContactHome';
 
 
@@ -27,15 +28,12 @@ class Home extends Component {
         <Fragment>
          <div className='front__page__ntc' >
               <div className='brand__ntc__container'>
-              <div>
-                <h1 className='brand__title'>{translate("brand.title")}</h1>
-              </div>
-                  <div className='btn__containers' >
-                    <h3 className='brand__subtitle' >{translate("brand.subtitle")}</h3>
-                  </div>
-                  <div  >
-                    <LinkButton backgroundColor="#e91e63" links='/' text={translate("brand.know_about")}/>
-                  </div> 
+                <h1 className='title__home' >{'ntc liveaboard'.toUpperCase()}</h1>
+                <h4 className='subtitle__home' >Join us to the underwater world</h4>
+                <div className='btn_container_home'>
+                <button onClick={() => this.props.history.push('/trips/:Koh-Change-Liveaboard')}
+                id="btn_slide" className="slide">&nbsp;</button>
+                </div>
               </div>
           </div>
             <AboutUs translate={translate} />
