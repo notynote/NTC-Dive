@@ -14,6 +14,18 @@ import { LocalizeProvider } from 'react-localize-redux'
 
 
 
+/*
+    **********  Todo **********
+
+    * RUN NPM build
+
+    * Heroku update
+
+    * (and add line to widget add the bottom)
+
+
+*/
+
 
 
 
@@ -24,6 +36,7 @@ class App extends Component {
          <BrowserRouter  >
             <Fragment>
                 <Navigation />
+                
                 <Switch>
                     <Route exact  path='/' component={Home} />
                     <Route path='/schedule' component={Schedule} />
