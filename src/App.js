@@ -14,18 +14,6 @@ import { LocalizeProvider } from 'react-localize-redux'
 
 
 
-/*
-    **********  Todo **********
-
-    * RUN NPM build
-
-    * Heroku update
-
-    * (and add line to widget add the bottom)
-
-
-*/
-
 
 
 

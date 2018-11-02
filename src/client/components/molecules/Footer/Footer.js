@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 import {  getTranslate } from 'react-localize-redux'
 
 import { connect } from "react-redux";
-import { sendEmailFooter } from '../../../../backend/dux/actions/appActions'
+
 import { Link } from 'react-router-dom'
 
 
@@ -81,9 +81,7 @@ class Footer extends React.PureComponent {
 }
 
 
-const mapDispatchToProps = {
-    dispatchSendEmailToFirebase: (email) => sendEmailFooter(email)
-}
+
 
 const mapStateToProps = state => ({
     app: state.app,
@@ -93,4 +91,4 @@ const mapStateToProps = state => ({
 
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Footer)
+export default connect(mapStateToProps, null)(Footer)

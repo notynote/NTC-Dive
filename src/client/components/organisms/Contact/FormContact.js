@@ -4,6 +4,9 @@ import People from "@material-ui/icons/People";
 import Message from '@material-ui/icons/Message';
 import InputAdornment from "@material-ui/core/InputAdornment";
 
+
+
+
 import classes from 'classnames'
 import CardBody from '../../molecules/Cards/CardBody'
 import CardFooter from '../../molecules/Cards/CardFooter'
@@ -17,6 +20,9 @@ import { connect } from "react-redux";
 import { submitFormToFirebase } from '../../../../backend/dux/actions/appActions';
 
 
+
+
+
 class FormContact extends Component {
   constructor(props) {
     super(props)
@@ -24,7 +30,7 @@ class FormContact extends Component {
             name: '',
             email: '',
             message: '',
-            formError: ''
+            formError: '',
         }
         this.nameRef = React.createRef()
         this.emailRef = React.createRef()
@@ -46,6 +52,9 @@ class FormContact extends Component {
       [message]: event.target.value,
     });
   };
+
+
+
 
 
 
@@ -138,6 +147,7 @@ class FormContact extends Component {
         <Button simple color="warning" type='submit' size="lg">
           {translate("Contact.btn")}
         </Button>
+
       </CardFooter>
           </form>
       </Fragment>

@@ -79,23 +79,6 @@ export const addMessage = usersData => {
 }
 
 
-export const sendEmailFooter = email => {
-    return dispatch => {
-        const usersEmail = { email };
-        dispatch(addMessage(usersEmail))
-        console.log(usersEmail)
-        base.push('Footer Email Data', {
-            data: usersEmail,
-            then(err) {
-                if(!err) {
-                    alert('Success Email Sent 👍')
-                } else {
-                    alert('Failure Sending Email')
-                }
-            }
-        })
-    }
-}
 
 
 export const submitFormToFirebase = (name, email, message) => {
