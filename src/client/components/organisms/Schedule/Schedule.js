@@ -12,7 +12,7 @@ import {
 } from "./Containers";
 
 import { connect } from "react-redux";
-
+// https://www.panunee.com/
 class Schedule extends Component {
 
   render() {
@@ -21,7 +21,7 @@ class Schedule extends Component {
         <Fragment>
           <header className='bck_schedule' >
             <div className='schedule__container__header' >
-                <h1 className='header' >{translate("Schedule.title")}</h1>
+                <h1 className='header__sch__one' >{translate("Schedule.title")}</h1>
             </div>
           </header>
             <Container1 translate={translate} />

@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 
 import Footer from '../../molecules/Footer/Footer'
 
-import AboutUs from './AboutUs'
+import {AboutUs} from './AboutUs'
 
 
 
@@ -12,6 +12,7 @@ import { connect } from "react-redux";
 import { changeLanguage } from '../../../../backend/dux/actions/appActions'
 
 import ContactHome from './ContactHome';
+import { NavContainer } from './NavContainer';
 
 
 
@@ -28,14 +29,10 @@ class Home extends Component {
         <Fragment>
          <div className='front__page__ntc' >
               <div className='brand__ntc__container'>
-                <h1 className='title__home' >{'ntc liveaboard'.toUpperCase()}</h1>
-                <h4 className='subtitle__home' >Join us to the underwater world</h4>
-                <div className='btn_container_home'>
-                <button onClick={() => this.props.history.push('/trips/:Koh-Change-Liveaboard')}
-                id="btn_slide" className="slide">&nbsp;</button>
-                </div>
+                <h1 className='title__home' >{'Nawee Taweechoke'.toUpperCase()}</h1>
               </div>
           </div>
+            <NavContainer />
             <AboutUs translate={translate} />
             <ContactHome translate={translate}/>
             <Footer translate={translate}

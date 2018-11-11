@@ -61,7 +61,7 @@ class Navigation extends Component {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Link to="/dive-sites" className={classes.navLink}>
-                      Dive Site
+                      Gallery
                   </Link>
                 </ListItem>
 

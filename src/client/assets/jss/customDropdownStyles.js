@@ -18,7 +18,9 @@ import {
 
   const modalStyle = {
     modal: {
-      borderRadius: "6px"
+      borderRadius: "6px",
+      paddingRight: "70%",
+      paddingLeft: "70%"
     },
     modalHeader: {
       borderBottom: "none",

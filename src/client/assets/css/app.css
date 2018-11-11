@@ -62,9 +62,20 @@
 
 
 .about__section__dive__learn { 
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
     text-align:center ;
 }
+
+
+@media (max-width: 600px) {
+    .about__section__dive__learn {
+        
+    }
+
+}
+
+
 
 /* Trips Styles */
 .main__btn {
@@ -170,7 +181,9 @@
         line-height: 4rem;
         letter-spacing: 0rem;
         padding-top: 2rem;
-        font-size: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 0.97rem;
         font-weight: bolder;
         text-align: center;
     }
@@ -282,25 +295,54 @@
 .bck_schedule {
     color: black;
     background-image: url('../images/rock__cover.JPG');
-     background-position: center;
+     background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
      height: 47vh;
      overflow: hidden;
+     background-attachment: fixed;
      display: flex;
      flex-direction: column;
 }
 .schedule__container__header {
     position: relative;
-    top: 130px;
-
+    top: 180px;
+    background: black;
+    
 }
+
+
+
 .header {
     font-family: 'Mill-Goudy';
     font-size: 3rem;
     color: white;
     letter-spacing: 0.3rem;
 }
+
+
+.header__sch__one {
+    font-family: 'Mill-Goudy';
+    font-size: 3rem;
+
+    color: white;
+    letter-spacing: 0.3rem;
+
+}
+
+
+@media (max-width: 600px) {
+    .schedule__container__header {
+        top: 170px;
+    }
+    
+    .header__sch__one {
+        font-size: 2rem;
+
+    }
+
+}
+
 .btm_container_schedule {
     display: flex;
     justify-content: center;
@@ -384,6 +426,15 @@
     background-color: #00acc1;
     padding: 13px;
     border-radius: 30px;
+}
+.ite__sch__blue_one {
+    text-decoration: none;
+    color: white;
+    background-color: #00acc1;
+    padding: 13px;
+    border-radius: 30px;
+    display: block;
+    margin: 0px auto;
 }
 
 @media (max-width: 890px) {
@@ -706,7 +757,7 @@
 @media (max-width: 800px) { 
     
     .about__content {
-        display: none;
+        
     }
 }
 /************ RATES (3) */
@@ -1036,7 +1087,22 @@ display: none;
         .lang__span {display: none;}
 }
 
+.container_video {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
 
+.btn_video_con {
+    position: relative;
+    top: -140px;
+    display: flex;
+    align-items: center;
+
+}
 
 /************* Dive Sites CONTENT */
 .gallery__dive_sites {
@@ -1045,6 +1111,9 @@ display: none;
 .divesites__princess_container {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: space-around;
+justify-content: space-between
 }
 
 

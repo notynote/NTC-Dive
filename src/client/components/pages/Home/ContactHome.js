@@ -9,6 +9,7 @@ class ContactHome extends React.PureComponent {
   render() {
 	const { translate } = this.props;
     return (
+			<div className='section__one_bck '>
         <div className="container-contact100">
 		<div className="wrap-contact100">
 			<div className="contact100-form-title" style={{ backgroundImage:`url(${url1})` }}>
@@ -22,6 +23,7 @@ class ContactHome extends React.PureComponent {
 			</div>
       <FormContact translate={translate} />
        </div>
+    </div>
     </div>
     )
   }
