@@ -68,13 +68,6 @@
 }
 
 
-@media (max-width: 600px) {
-    .about__section__dive__learn {
-        
-    }
-
-}
-
 
 
 /* Trips Styles */
@@ -178,7 +171,7 @@
 
 @media (max-width: 600px) {
     .tours__p__about__one {
-        line-height: 4rem;
+        line-height: 3rem;
         letter-spacing: 0rem;
         padding-top: 2rem;
         padding-left: 2rem;
@@ -197,7 +190,7 @@
 }
 @media (max-width: 400px) {
     .koh__header__about {
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
 
 }
@@ -350,8 +343,6 @@
     opacity: 0.9;
 }
 .info__schedule {
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
     background-color: #36486b;
     display: grid;
     grid-column: 1;
@@ -398,14 +389,12 @@
     background-color: dodgerblue;
     margin: 0px 4rem;
     padding: 10px 0px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    
+    
 }
 
 .btm__container_sch2 {
     background-color: white;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
     margin: 0px 4rem;
     box-shadow: 2px 10px black;
 }
@@ -424,8 +413,10 @@
     text-decoration: none;
     color: white;
     background-color: #00acc1;
-    padding: 13px;
     border-radius: 30px;
+
+    padding: 13px;
+
 }
 .ite__sch__blue_one {
     text-decoration: none;
@@ -437,6 +428,21 @@
     margin: 0px auto;
 }
 
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 17rem;
+}
+
+@media (max-width: 1000px) {
+    .btn-container {
+        padding: 0rem 5rem;
+    }
+}
 @media (max-width: 890px) {
     .schedule__container {
         overflow: hidden;
@@ -467,8 +473,10 @@
         color: dodgerblue;
         font-weight: 900;
         letter-spacing: 0.2rem;
+        font-size: 0.9rem;
     }
     .sch__3 > li {
+        font-size: 0.9rem;
         padding-bottom: 1rem;
         line-height: 2.5rem;
     }
@@ -477,11 +485,32 @@
             cursor: pointer;
             text-align: center;
     }
+    
 }
+@media (max-width: 700px)  {
+    .btn-container {
+        padding: 0rem;
+        flex-direction: column;
+    }
+
+}
+
+
 @media (max-width: 500px)  {
     .btn__sch {
         margin: 0px 6rem;
+        
 }
+.btm__container_sch2 {
+    margin: 0px 1rem;
+
+}
+.container__sch_1 {
+    margin: 0px 1rem;
+}
+
+
+
 }
 @media (max-width: 300px) {
     .sch__3 {
@@ -489,7 +518,7 @@
         flex-direction: column;
         list-style-type: none;
         border-bottom: 2px solid #d3d3d3;
-        padding: 30px 0px;
+        padding: 20px 0px;
         text-align: center;
         color: white;
     }
@@ -507,6 +536,7 @@
 
         cursor: pointer;
     }
+ 
 
 }
 
@@ -554,8 +584,8 @@
 }
 
 .koh__container {
-    /* padding-left: 3rem; */
-    max-width: 30rem;
+
+    max-width: 40rem;
     padding: 0rem 5rem;
 }
 .koh__containers  {
@@ -565,8 +595,9 @@
 }
 
 .gallery__kochchang {
-    padding-top:6rem;
+    padding-top:3rem;
     padding-right: 2rem;
+    padding-bottom: 6rem;
 }
 .gellery__rates {
     padding-top: 50px;
@@ -754,12 +785,7 @@
     }
 }
 
-@media (max-width: 800px) { 
-    
-    .about__content {
-        
-    }
-}
+
 /************ RATES (3) */
 .main__header__rates {
     display: flex;
@@ -1027,7 +1053,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 20px 0 0 0;
-    height: 24px;
+    height: 35px;
     overflow: hidden;
     transition: all 0.5s ease;
     vertical-align: top;
@@ -1095,16 +1121,57 @@ display: none;
     justify-content: space-around;
     overflow: hidden;
 }
+.opts {
+    width: 500px;
+    height: 300px;
+}
+
+
 
 .btn_video_con {
     position: relative;
     top: -140px;
     display: flex;
     align-items: center;
-
 }
 
+
+
+@media (max-width: 1000px) {
+    .container_video {
+        flex-direction: column;
+    }
+    .btn_video_con {
+        top: 0px;
+        padding: 4rem 0rem;
+    }
+}
+@media (max-width: 600px) {
+    .opts {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .opts {
+        height: 150px;
+        width: 300px;
+    }
+}
+
+
+
+
+
+
 /************* Dive Sites CONTENT */
+
+.section__divesites {
+    display: flex;
+    flex-direction: column;
+}
 .gallery__dive_sites {
     padding: 0rem 5.6rem;
 }
@@ -1165,8 +1232,10 @@ justify-content: space-between
 
 @media (max-width: 990px) {
 
-
-
+    .section__divesites {
+        flex-direction: column;
+        align-items: center;
+    }
     .dive__sites__container1 {
         display: flex;
         flex-direction: column;
@@ -1351,6 +1420,11 @@ justify-content: space-between
         justify-items: space-between;
         padding-bottom: 2rem;
     }
+
+   
+
+
+
     .hovereffect:first-child {
         margin-bottom: 3rem;
     }
@@ -1363,10 +1437,11 @@ justify-content: space-between
 
     .hovereffect .overlay {
         max-width: 60%;
+        max-height: 60%;
         position: absolute;
         left: 5rem;
         top: 0rem;
-        height: 100%;
+        overflow: hidden;
     }
 
 }

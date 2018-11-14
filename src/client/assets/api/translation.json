@@ -9,10 +9,11 @@
     "AboutUs":{
         "title": ["About NTC Dive", "เกี่ยวกับ NTC Dive"],
         "content": ["NTC stands for Nawee Taweechoke. We provide a liveaboard and day trip for scuba diving service in Eastern Thailand. Our mission is to bring scuba divers to a stunning dive sites with ease. Our fleet equipped with the professional staff and scuba diving equipment to suit everybody needs. We are looking forward to serving you on an unforgettable journey.","NTC ย่อมาจาก Nawee Taweechoke เราให้บริการการดำน้ำตื้นและบริการนำเที่ยวแบบวันเดียวสำหรับนักดำน้ำในภาคตะวันออกของประเทศไทย ภารกิจของเราคือการนำนักดำน้ำไปดำน้ำที่สถานที่ดำน้ำที่สวยงามได้อย่างง่ายดาย ฝูงบินของเราพร้อมกับพนักงานมืออาชีพและอุปกรณ์ดำน้ำเพื่อตอบสนองทุกความต้องการ เรากำลังรอคอยที่จะให้บริการคุณในการเดินทางที่น่าจดจำ"],
-        "subtitle1": ["Our Destination", "ปลายทางของเรา"],
+        "subtitle1": ["Join Our Trip", "เข้าร่วมการเดินทางของเรา"],
         "content1": ["We provide both two days liveaboard trip every weekend during a diving season. Meanwhile, we also have a one day trip for a diver who has less time to spare. Learn more about our destination", "เราให้บริการการท่องเที่ยวสดทั้งสองวันในช่วงสุดสัปดาห์ในช่วงฤดูดำน้ำ ในขณะเดียวกันเรายังมีการเดินทางวันหนึ่งสำหรับนักดำน้ำที่มีเวลาว่างน้อยลง เรียนรู้เพิ่มเติมเกี่ยวกับจุดหมายปลายทางของเรา"],
-        "btn": ["Destination", "ปลายทาง"],
+        "btn": ["Liveaboard", "Liveaboard"],
         "subtitle2": ["Destination", "ปลายทาง"],
+        "btn2": ["Day Trips", "Day Trips"],
         "contact_us": ["Check Out More", "เช็คเอาท์เพิ่มเติม"]
     },
     "ContactFormHome": {
@@ -30,9 +31,9 @@
         "oct": ["October 2018", "ตุลาคม 2018"],
         "nov": ["November 2018", "พฤศจิกายน 2018"],
         "dec": ["December 2018", "ธันวาคม 2018"],
-        "jan": ["January 2018", "มกราคม 2018"],
-        "feb": ["February 2018", "กุมภาพันธ์ 2018"],
-        "march": ["March 2018", "มีนาคม 2018"],
+        "jan": ["January 2019", "มกราคม 2018"],
+        "feb": ["February 2019", "กุมภาพันธ์ 2018"],
+        "march": ["March 2019", "มีนาคม 2018"],
         "enquiry": ["Enquiry", "การสอบสวน"]
     },
     "KohChang": {

@@ -4,7 +4,7 @@ import { getTranslate } from 'react-localize-redux';
 import { connect } from 'react-redux';
 import { CardImages } from '../../molecules/Cards/CardImages';
 import Module from '../../molecules/Module';
-
+  
 
 
 
@@ -25,7 +25,7 @@ class DiveSites extends Component {
       </div>
     </header>
 
-        <section>
+        <section className='section__divesites' >
           <div style={{ paddingTop: 40, }} >
             <h1>Check Out Our Dive Sites</h1>
           </div>

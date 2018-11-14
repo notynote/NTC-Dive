@@ -10,7 +10,8 @@ import TransparentButton from '../atoms/Buttons/TransparentButton'
 import IconButton from "@material-ui/core/IconButton";
 import withStyles from "@material-ui/core/styles/withStyles";
 import customDropdownStyle from '../../assets/jss/customDropdownStyles'
-
+import ImageGallery from 'react-image-gallery';
+import { KohChangimages } from "../../assets/api/api";
 import PropTypes from 'prop-types'
 
 
@@ -41,7 +42,7 @@ class Module extends Component {
         x[modal] = false;
         this.setState(x);
       }
-    
+   
   render() {
       const { classes, title } = this.props
     return (
@@ -82,9 +83,8 @@ class Module extends Component {
           id="classic-modal-slide-description"
           className={classes.modalBody}
         >
-          <img alt='...' 
-          src={require("../../assets/images/IMG_0799.JPG")}
-          style={{ width: '100vh', height: '100vh'}}
+          <ImageGallery items={KohChangimages}
+          autoPlay={true}
           />
         </DialogContent>
         <DialogActions className={classes.modalFooter}>
