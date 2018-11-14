@@ -3,8 +3,6 @@ import React from 'react'
 
 
 export const NavContainer = ({ ...props }) => {
-
-  console.log(props.history)
         return (
         <React.Fragment>
 

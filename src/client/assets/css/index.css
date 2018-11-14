@@ -1089,12 +1089,13 @@ td.rdtYear:hover {
       @media (max-width: 800px) {
           .card .info p {
             padding: -3rem 0px;
-        }
+          }
         .hello {
           display: block;
           text-align: center;
           position: relative;
-          top: -6rem;
+          top: -4rem;
+          left: 10rem;
         }
         .wrapper:nth-child(1) {
           border-top: none;
@@ -1115,11 +1116,11 @@ td.rdtYear:hover {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          overflow: hidden;
         }
         .card {
-          width: 100%;
+          width: 100vh;
           height: 30vh;
-          overflow: hidden;
         }
         .wrapper {
           overflow: hidden;
@@ -1133,6 +1134,4 @@ td.rdtYear:hover {
 
     
     
-
-
 
