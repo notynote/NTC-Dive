@@ -11,7 +11,7 @@ import IconButton from "@material-ui/core/IconButton";
 import withStyles from "@material-ui/core/styles/withStyles";
 import customDropdownStyle from '../../assets/jss/customDropdownStyles'
 import ImageGallery from 'react-image-gallery';
-import { KohChangimages } from "../../assets/api/api";
+
 import PropTypes from 'prop-types'
 
 
@@ -44,7 +44,7 @@ class Module extends Component {
       }
    
   render() {
-      const { classes, title } = this.props
+      const { classes, title, album } = this.props
     return (
         <React.Fragment>
 
@@ -83,7 +83,7 @@ class Module extends Component {
           id="classic-modal-slide-description"
           className={classes.modalBody}
         >
-          <ImageGallery items={KohChangimages}
+          <ImageGallery items={album}
           autoPlay={true}
           />
         </DialogContent>
@@ -104,7 +104,8 @@ class Module extends Component {
 
 
 Module.protoTypes = {
-    title: PropTypes.string
+    title: PropTypes.string,
+    album: PropTypes.any
 }
 
 

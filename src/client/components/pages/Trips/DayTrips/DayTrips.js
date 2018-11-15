@@ -7,7 +7,7 @@ import Footer from '../../../molecules/Footer/Footer';
 
 import { getTranslate } from 'react-localize-redux'
 import { connect } from 'react-redux';
-import { KohChangimages } from "../../../../assets/api/api";
+import { DayTripsSlide, BoatTrip1 } from "../../../../assets/api/api";
 import ImageGallery from 'react-image-gallery';
 import { DiveSitesContainer } from '../../../organisms/DiveSitesContainer';
 
@@ -61,17 +61,19 @@ class DayTrips extends React.Component {
                         <br />
                     </div>
                     <div className='container__carousel_daytrips' >
-                    <ImageGallery items={KohChangimages} />
+                    <ImageGallery items={DayTripsSlide} />
                     </div>
                 </section>
                 <DiverTrips translate={translate} />
                 <div style={{ paddingTop: 20 }} />
-                <DiveSitesContainer 
+                <DiveSitesContainer
                 translate={translate}
                 header={translate("Sites.title")}
                 content={translate("Sites.content1")}
                 >
-                    <ImageGallery items={KohChangimages} />
+                <div className='gal'>
+                    <ImageGallery items={BoatTrip1} />
+                </div>
                 </DiveSitesContainer>
                 <Footer />
         </Fragment>

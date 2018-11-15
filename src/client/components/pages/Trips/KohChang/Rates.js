@@ -5,10 +5,10 @@ export const Rates = ({ translate }) => (
 
 <div className="section">
 <div className='section__2' >
-            <div className='image__rates' >
+            <div className='container__carousel_daytrips__two' >
            <img
-           src={require('../../../../assets/images/fish_koh.jpeg')}
-           className='img__koh'
+           src={require('../../../../assets/images/Image for photo near remark.jpg')}
+           className='img__koh2'
            alt='...'
            />
            </div>
