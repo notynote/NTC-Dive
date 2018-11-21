@@ -106,12 +106,12 @@
     },
 
     "SitesContainer": {
-        "title_1": ["Alhambra Rock", ""],
-        "title_2": ["Blueberry Hill", ""],
-        "title_3": ["Hin Luk Bath", ""],
-        "title_4": ["HTMS Chang Wreck", ""],
-        "title_5": ["Koh Rang", ""],
-        "title_6": ["Thalu Island", ""]
+        "title_1": ["Alhambra Rock", "Alhambra Rock"],
+        "title_2": ["Blueberry Hill", "Blueberry Hill"],
+        "title_3": ["Hin Luk Bath", "Hin Luk Bath"],
+        "title_4": ["HTMS Chang Wreck", "HTMS Chang Wreck"],
+        "title_5": ["Koh Rang", "Koh Rang"],
+        "title_6": ["Thalu Island", "Thalu Island"]
 
     },
 

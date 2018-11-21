@@ -16,7 +16,7 @@ export const NavContainer = ({ ...props }) => {
         onClick={() => props.history.push('/schedule')}
         
         ><img 
-        src={require("../../../assets/images/IMG_0800.JPG")} alt='...'
+        src={require("../../../assets/images/HTMS/POP_6864.jpg")} alt='...'
         />
           <div class="info">
             <h3 className='hello' >{'Schedule & Rates'}</h3>
@@ -31,7 +31,7 @@ export const NavContainer = ({ ...props }) => {
         </div>
         <div class="card"
         onClick={() => props.history.push('/trips/:Koh-Change-Liveaboard')}
-        ><img src={require("../../../assets/images/boats__image__1.JPG")} alt='...' />
+        ><img src={require("../../../assets/images/boat2/1.JPG")} alt='...' />
           <div class="info">
             <h3 className='hello' >{'Liveaboard'}</h3>
         
@@ -45,7 +45,7 @@ export const NavContainer = ({ ...props }) => {
         </div>
         <div class="card"
         onClick={() => props.history.push('/trips/:day-trips')}
-        ><img src={require("../../../assets/images/koh-chang.jpeg")} alt='...' />
+        ><img src={require("../../../assets/images/rock/POP_8268.JPG")} alt='...' />
           <div class="info">
             <h3 className='hello' >{'Day Trip'}</h3>
             

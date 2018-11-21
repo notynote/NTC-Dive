@@ -10,9 +10,9 @@ import {
   Container5,
   Container6,
 } from "./Containers";
-
 import { connect } from "react-redux";
-import CreateContainer from './CreateContainer';
+
+
 
 class Schedule extends Component {
 
@@ -33,7 +33,6 @@ class Schedule extends Component {
             <Container4 translate={translate} />
             <Container5 translate={translate} />
             <Container6 translate={translate} />
-            <CreateContainer { ...this.props } />
             <Footer translate={translate} />
         </Fragment>
     )
