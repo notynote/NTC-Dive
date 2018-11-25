@@ -24,11 +24,12 @@ class Home extends Component {
   }
   render() {
     const { languages, translate } = this.props;
+    const title = "Nawee Taweechoke".toUpperCase()
     return (
         <Fragment>
          <div className='front__page__ntc' >
               <div className='brand__ntc__container'>
-                <h1 className='title__home' >{'Nawee Taweechoke'.toUpperCase()}</h1>
+                <h1 className='title__home' >{title}</h1>
               </div>
           </div>
             <NavContainer { ...this.props } />

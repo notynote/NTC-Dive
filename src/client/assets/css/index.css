@@ -96,6 +96,7 @@
     }
     .title__home {
       font-size: 1.6rem;
+      text-align: center;
     }
 }
 
@@ -170,6 +171,7 @@
   }
   .brand__ntc__container  {
     line-height: 7.2rem;
+    padding-left: 1rem;
   }
 }
 
@@ -1082,8 +1084,11 @@ td.rdtYear:hover {
             padding: -3rem 0px;
           }
           .card .info {
-            position: none;
+            position: relative;
+            display: block;
+            margin:0 auto; 
             z-index: 3;
+            top: -147px;
             color: white;
             opacity: 1;
             text-align: center;
@@ -1096,9 +1101,6 @@ td.rdtYear:hover {
          display: inherit;
           text-align: center;
           font-weight: bold;
-          position: relative;
-          bottom: 147px;
-          left: 250px;
           font-family: 'Montserrat-bold', sans-serif;
         }
         .wrapper:nth-child(1) {
