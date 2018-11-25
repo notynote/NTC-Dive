@@ -1088,7 +1088,6 @@ td.rdtYear:hover {
             display: block;
             margin:0 auto; 
             z-index: 3;
-            top: -147px;
             color: white;
             opacity: 1;
             text-align: center;
