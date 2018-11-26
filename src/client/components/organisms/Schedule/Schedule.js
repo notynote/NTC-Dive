@@ -10,10 +10,12 @@ import {
   Container5,
   Container6,
 } from "./Containers";
-
 import { connect } from "react-redux";
-// https://www.panunee.com/
+
+
+
 class Schedule extends Component {
+
 
   render() {
     const { translate } = this.props;
@@ -24,7 +26,8 @@ class Schedule extends Component {
                 <h1 className='header__sch__one' >{translate("Schedule.title")}</h1>
             </div>
           </header>
-            <Container1 translate={translate} />
+            <Container1 
+            translate={translate} />
             <Container2 translate={translate} />
             <Container3 translate={translate} />
             <Container4 translate={translate} />

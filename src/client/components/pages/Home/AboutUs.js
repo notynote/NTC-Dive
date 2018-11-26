@@ -1,9 +1,9 @@
-import React, { Fragment, Component } from 'react'
+import React, { Fragment } from 'react'
 
 import { Link } from 'react-router-dom'
 
 import YouTube from 'react-youtube';
-// http://www.youtube.com/watch?v=W4BH4cV0tA0
+
 export const AboutUs = ({ translate }) => {
     return (
             <Fragment>
@@ -23,9 +23,19 @@ export const AboutUs = ({ translate }) => {
                         <p className='content__about' >
                        {translate("AboutUs.content1")}
                         </p>
+                    <div className='btn-container' >
+                    <div>
+
                      <Link className='ite__sch__blue' to='/trips/:Koh-Change-Liveaboard'>
                          {translate("AboutUs.btn")}
                       </Link>
+                    </div>
+                    <div>
+                     <Link className='ite__sch' to='/trips/:day-trips'>
+                         {translate("AboutUs.btn2")}
+                      </Link>
+                    </div>
+                    </div>
                      </div>
                     </div>
 
@@ -35,10 +45,6 @@ export const AboutUs = ({ translate }) => {
     )
 }
 
-const opts = {
-    height: '300',
-    width: '500'
-}
 
 
 const VideoContainer = ({ translate }) => {
@@ -51,12 +57,12 @@ const VideoContainer = ({ translate }) => {
             <div>
             <YouTube
             videoId="W4BH4cV0tA0"
-            opts={opts}
+            className='opts'
             />
             </div>
             <div>
             <YouTube
-            opts={opts}
+            className='opts'
             videoId="W4BH4cV0tA0"
             />
             </div>
@@ -72,14 +78,6 @@ const VideoContainer = ({ translate }) => {
 }
 
 
-/*
-
-             <h4 className='about__title'>{translate("AboutUs.subtitle2")}</h4>
-     <Link className='ite__sch__blue' to='/dive-sites' >
-                            {translate("AboutUs.contact_us")}
-                         </Link>
-
-*/
 
 
 

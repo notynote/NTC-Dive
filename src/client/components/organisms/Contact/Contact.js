@@ -1,30 +1,82 @@
 import React from "react";
-import withStyles from "@material-ui/core/styles/withStyles";
-import { Icon } from 'react-icons-kit'
-import {facebook} from 'react-icons-kit/icomoon/facebook'
-import { youtube } from 'react-icons-kit/icomoon/youtube'
-import { instagram } from 'react-icons-kit/icomoon/instagram'
-
-
-import Button from "../../atoms/Buttons/TransparentButton";
-
-import { LocationContainer } from "./LocationContainer";
-
-
-import CardHeader from '../../molecules/Cards/CardHeader'
-
-import pageStyles from "../../../assets/jss/pageStyles";
-
 import FormContact from "./FormContact";
+
 
 
 
 
 class Contact extends React.Component {
    render() {
-     const { classes, translate } = this.props
+     const { translate } = this.props
      return (
-       <div className='contact__container'>
+      <React.Fragment>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+
+				<FormContact />
+
+      		<div class="contact100-more flex-col-c-m">
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+                  <div class="flex-col size2">
+                    <span class="txt1 p-b-20">
+                      Address
+                    </span>
+
+                    <span class="txt2">
+                      {translate("Footer.address")}
+                      {translate("Footer.address2")}
+                    </span>
+                  </div>
+                </div>
+                <div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Lets Talk
+						</span>
+
+						<span class="txt3">
+						092 592 9744
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							General Support
+						</span>
+
+						<span class="txt3">
+						ntcdiveboat@gmail.com
+						</span>
+					</div>
+					        </div>
+				        </div>
+  			    </div>
+				</div>
+
+      </React.Fragment>
+     )
+   }
+}
+
+export default Contact;
+
+
+/*
+      <div className='contact__container'>
           <div className='opacity__container'>
           <div className='grid__container' >
           <CardHeader color="warning" className={classes.cardHeader}>
@@ -61,10 +113,8 @@ class Contact extends React.Component {
                       </div>
                   </div>
           </div>
-     )
-   }
-}
-
-export default withStyles(pageStyles)(Contact);
 
 
+
+
+*/

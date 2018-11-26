@@ -11,7 +11,7 @@ import { getTranslate } from "react-localize-redux";
 import { connect } from "react-redux";
 import { changeLanguage } from '../../../../backend/dux/actions/appActions'
 
-import ContactHome from './ContactHome';
+
 import { NavContainer } from './NavContainer';
 
 
@@ -24,17 +24,16 @@ class Home extends Component {
   }
   render() {
     const { languages, translate } = this.props;
-    
+    const title = "Nawee Taweechoke".toUpperCase()
     return (
         <Fragment>
          <div className='front__page__ntc' >
               <div className='brand__ntc__container'>
-                <h1 className='title__home' >{'Nawee Taweechoke'.toUpperCase()}</h1>
+                <h1 className='title__home' >{title}</h1>
               </div>
           </div>
-            <NavContainer />
+            <NavContainer { ...this.props } />
             <AboutUs translate={translate} />
-            <ContactHome translate={translate}/>
             <Footer translate={translate}
             lang={languages}
             />

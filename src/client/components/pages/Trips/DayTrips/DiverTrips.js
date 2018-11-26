@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
-import withStyles from "@material-ui/core/styles/withStyles";
-import cardsStyles from '../../../../assets/jss/cardsStyles'
-import { KohChangimages } from "../../../../assets/api/api";
-import ImageGallery from 'react-image-gallery';
+
+
 
 
 class DiverTrips extends React.Component {
@@ -12,8 +10,12 @@ class DiverTrips extends React.Component {
         <Fragment>
                 <section className='daytrips__container__section' >
                 <div className='container__carousel_daytrips__one'>
-                         <ImageGallery items={KohChangimages} />
-                      </div>
+                    <img
+                    src={require('../../../../assets/images/Image next to non diver package.JPG')}
+                    className='img__koh2'
+                    alt='...'
+                    />
+                     </div>
                     <div className='daytripts__container__desc__second' >
                         <h2>{translate("DiveSites.title")}</h2>
                         <p>
@@ -53,4 +55,4 @@ class DiverTrips extends React.Component {
 
 
 
-export default withStyles(cardsStyles)(DiverTrips)
+export default DiverTrips

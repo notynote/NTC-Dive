@@ -15,7 +15,10 @@ class Load extends React.Component {
 
 
     _renderModule = () => (
-         <div>
+         <div style={{
+             position: 'relative',
+             left: '140px'
+         }} >
             <img src={require('../../../assets/images/animation.gif')}
             className='loader__img'
             alt='...'

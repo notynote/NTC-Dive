@@ -5,7 +5,7 @@ import { Rates } from './Rates'
 import { getTranslate } from 'react-localize-redux'
 import { connect } from "react-redux";
 import { LinkButton } from '../../../atoms/Buttons/LinkButton';
-import { KohChangimages } from "../../../../assets/api/api";
+import { KohChangimages, BoatTrip2 } from "../../../../assets/api/api";
 import ImageGallery from 'react-image-gallery';
 import {DiveSitesContainer} from '../../../organisms/DiveSitesContainer';
 import Footer from '../../../molecules/Footer/Footer'
@@ -22,8 +22,7 @@ class KohChang extends Component {
          <h2 className='header__koh1' >{translate("KohChang.title")}</h2>
       </header>
         </div>
-     <div className="section">
-     <div className='section__2' >
+     <div className='section__4' >
           <div className='koh__container' >
                 <h2 className='koh__header' >{translate("KohChang.subtitle")}</h2>
                 <p className='desc__p' >
@@ -43,8 +42,7 @@ class KohChang extends Component {
           <div className='gallery__kochchang' >
                 <ImageGallery items={KohChangimages} />
           </div>
-                </div>
-        </div>
+     </div>
 
      <Schedule translate={translate} />
      <Rates translate={translate} />
@@ -54,7 +52,9 @@ class KohChang extends Component {
      header={translate("Sites.subtitle")}
      content={translate("Sites.content")}
      >
-     <ImageGallery items={KohChangimages} />
+     <div className='gal' >
+     <ImageGallery items={BoatTrip2} />
+     </div>
      </DiveSitesContainer>
      <Footer />
     </div>

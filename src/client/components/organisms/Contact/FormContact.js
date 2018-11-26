@@ -1,18 +1,4 @@
 import React, { Component, Fragment,  } from 'react'
-import Email from "@material-ui/icons/Email";
-import People from "@material-ui/icons/People";
-import Message from '@material-ui/icons/Message';
-import InputAdornment from "@material-ui/core/InputAdornment";
-
-
-
-
-import classes from 'classnames'
-import CardBody from '../../molecules/Cards/CardBody'
-import CardFooter from '../../molecules/Cards/CardFooter'
-import CustomInput from '../../atoms/Input/Input'
-import Button from '../../atoms/Buttons/TransparentButton'
-
 
 import LoaderSuccess   from '../../../components/atoms/Loader/LoaderSuccess';
 
@@ -54,15 +40,8 @@ class FormContact extends Component {
   };
 
 
-
-
-
-
-
   submitForm = e => {
-        const name = this.nameRef.current.props.value
-        const email = this.emailRef.current.props.value
-        const message = this.messageRef.current.props.value
+        const { name, email, message } = this.state
         e.preventDefault();
         this.props.dispatchSendEmailFirebase(name, email, message)
        this.clearInput()
@@ -73,83 +52,51 @@ class FormContact extends Component {
 
     render() {
       const { translate} = this.props;
-
       return (
         <Fragment>
-      <form onSubmit={this.submitForm} >
-        <div className='form__input' >
-        <LoaderSuccess />
-        <CardBody >
+        <form className="contact100-form validate-form" onSubmit={this.submitForm}>
+          <span className="contact100-form-title">
+            Send Us A Message
+          </span>
+          <LoaderSuccess />
 
-         <CustomInput
-          labelText={translate("Contact.name")}
-          id="full"
-          formControlProps={{
-            fullWidth: true
-          }}
-          inputProps={{
-            type: "name",
-            endAdornment: (
-              <InputAdornment  position="end">
-                <People className={classes.inputIconsColor} />
-              </InputAdornment>
-            )
-          }}
-          ref={this.nameRef}
-          onChange={this.handleChange('name')}
-          value={this.state.name}
-          required={true}
-          />
-
-
-       <CustomInput
-          labelText={translate("Contact.email")}
-          id="email"
-          formControlProps={{
-            fullWidth: true
-          }}
-          inputProps={{
-            type: "email",
-            endAdornment: (
-              <InputAdornment position="end">
-                <Email className={classes.inputIconsColor} />
-              </InputAdornment>
-            ),
-          }}
-          ref={this.emailRef}
-          onChange={this.handleChange('email')}
-          value={this.state.email}
-          required={true}
-        />
-       <CustomInput
-          labelText={translate("Contact.message")}
-          id="message"
-          formControlProps={{
-            fullWidth: true
-          }}
-          inputProps={{
-            type: "message",
-            endAdornment: (
-              <InputAdornment position="end">
-                <Message className={classes.inputIconsColor} />
-              </InputAdornment>
-            ),
-          }}
-          ref={this.messageRef}
-          onChange={this.handleChange('message')}
-          value={this.state.message}
-          required={true}
-        />
-
-      </CardBody>
+          <label className="label-input100" htmlFor="email">Enter your name *</label>
+          <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+            <input id="email" className="input100" type="text" name="name" placeholder="Eg. Full Name"
+            onChange={this.handleChange('name')}
+            ref={this.nameRef}
+            required
+            />
+            <span className="focus-input100"></span>
           </div>
-     <CardFooter className={classes.cardFooter}>
-        <Button simple color="warning" type='submit' size="lg">
-          {translate("Contact.btn")}
-        </Button>
 
-      </CardFooter>
-          </form>
+          <label className="label-input100" htmlFor="email">Enter your Email *</label>
+          <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+            <input id="email" className="input100" type="text" name="email" placeholder="Eg. example@email.com"
+            onChange={this.handleChange('email')}
+            required
+            ref={this.emailRef}
+            />
+            <span className="focus-input100"></span>
+          </div>
+
+          <label className="label-input100" htmlFor="message">Message *</label>
+          <div className="wrap-input100 validate-input" data-validate = "Message is required">
+            <textarea id="message" className="input100" name="message" placeholder="Write us a message"
+            required
+            onChange={this.handleChange('message')}
+            ref={this.messageRef}
+  
+            ></textarea>
+            <span className="focus-input100"></span>
+          </div>
+
+          <div className="container-contact100-form-btn">
+            <button className="contact100-form-btn" >
+              Send Message
+            </button>
+          </div>
+			</form>
       </Fragment>
     )
   }

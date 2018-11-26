@@ -20,6 +20,7 @@ const TripsContainer = ({ tripCode, dates, boat, avalibility, translate}) => {
                       <EmailButton translate={translate} />
                       <li>{avalibility}</li>
                     </ul>
+
                     <ul className='sch__3' >
                       <li>
                       <span className='sch__p' >{translate("Schedule.tripcode")}: </span>
