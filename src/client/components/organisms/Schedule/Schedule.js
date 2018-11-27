@@ -3,8 +3,7 @@ import Footer from '../../molecules/Footer/Footer'
 import {  getTranslate } from "react-localize-redux";
 
 import {
-  Container1,
-  Container2,
+
   Container3,
   Container4,
   Container5,
@@ -26,9 +25,6 @@ class Schedule extends Component {
                 <h1 className='header__sch__one' >{translate("Schedule.title")}</h1>
             </div>
           </header>
-            <Container1 
-            translate={translate} />
-            <Container2 translate={translate} />
             <Container3 translate={translate} />
             <Container4 translate={translate} />
             <Container5 translate={translate} />
