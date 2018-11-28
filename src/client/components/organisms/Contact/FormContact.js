@@ -51,7 +51,7 @@ class FormContact extends Component {
 
 
     render() {
-      const { translate} = this.props;
+
       return (
         <Fragment>
         <form className="contact100-form validate-form" onSubmit={this.submitForm}>

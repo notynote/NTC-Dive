@@ -12,7 +12,7 @@ export const Container3 = ({ translate }) => (
             tripCode='PRC9-2018'
             dates='01-02 Dec 2018'
             boat='January Princess'
-            avalibility='Full'
+            avalibility='1 Slot'
             />
             <TripsContainer
             tripCode='PRC10-2018'
@@ -36,7 +36,7 @@ export const Container3 = ({ translate }) => (
             tripCode='PRC13-2018'
             dates='29-30 Dec 2018'
             boat='January Princess'
-            avalibility='7 Slots'
+            avalibility='8 Slots'
             />
           </ScheduleContainer>
         </Fragment>
