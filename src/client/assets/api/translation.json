@@ -22,6 +22,8 @@
     },
     "Schedule": {
         "title": ["Schedule & Rates","กำหนดการและราคา"],
+        "Liveaboard": ["Liveaboard", "Liveaboard"],
+        "DayTrip": ["Day Trip", "Day Trip"],
         "tripcode": ["Trip Code", "รหัสการเดินทาง"],
         "dates": ["Dates", "วันที่"],
         "Boat": ["Boat", "เรือ"],
@@ -102,7 +104,8 @@
         "title": ["Non Diver Package", "แพ็คเกจ Non Diver"],
         "subtitle": ["Dive Sites will be decided base on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาตามสภาพอากาศในแต่ละวัน"],
         "subtitle1": ["Snorkeling Equipment", "อุปกรณ์ดำน้ำตื้น"],
-        "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"]
+        "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"],
+        "header": ["Check Out Our Dive Sites", "Check Out Our Dive Sites"]
     },
 
     "SitesContainer": {

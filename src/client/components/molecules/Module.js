@@ -20,7 +20,7 @@ function Transition(props) {
   }
 
 
-class Module extends Component {
+class Module extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {

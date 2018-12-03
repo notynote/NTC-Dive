@@ -32,7 +32,7 @@ class Home extends Component {
                 <h1 className='title__home' >{title}</h1>
               </div>
           </div>
-            <NavContainer { ...this.props } />
+            <NavContainer { ...this.props } translate={translate} />
             <AboutUs translate={translate} />
             <Footer translate={translate}
             lang={languages}
