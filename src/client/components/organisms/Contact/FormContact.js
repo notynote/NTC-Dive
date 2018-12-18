@@ -1,4 +1,4 @@
-import React, { Component, Fragment,  } from 'react'
+import React, { PureComponent, Fragment,  } from 'react'
 
 import LoaderSuccess   from '../../../components/atoms/Loader/LoaderSuccess';
 
@@ -9,7 +9,7 @@ import { submitFormToFirebase } from '../../../../backend/dux/actions/appActions
 
 
 
-class FormContact extends Component {
+class FormContact extends PureComponent {
   constructor(props) {
     super(props)
         this.state = {

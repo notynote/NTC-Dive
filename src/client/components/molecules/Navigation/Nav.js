@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 import Header from './Header'
 import CustomDropdown from './CustomDropdown'
 import navbarStyles from '../../../assets/jss/navbarStyles'
@@ -12,7 +12,7 @@ import LanguageToggle from "../../atoms/Buttons/LanguageToggle";
 
 
 
-class Navigation extends Component {
+class Navigation extends PureComponent {
   render() {
     const { classes } = this.props;
     

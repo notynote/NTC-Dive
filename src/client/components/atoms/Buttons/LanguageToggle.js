@@ -6,7 +6,7 @@ import { changeLanguage, switchLanguages } from '../../../../backend/dux/actions
 
 
 
-class LanguageToggle extends React.Component {
+class LanguageToggle extends React.PureComponent {
 
   componentDidMount() {
     const { dispatchChangeLang } = this.props

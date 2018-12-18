@@ -22,3 +22,7 @@ yarn-error.log*
 
 
 .env
+
+src/client/assets/api/aws-exports(2).js
+
+src/client/assets/api/api.js

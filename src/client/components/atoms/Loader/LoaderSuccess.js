@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 
 
-class Load extends React.Component {
+class Load extends React.PureComponent {
     constructor(props) {
         super(props);
 

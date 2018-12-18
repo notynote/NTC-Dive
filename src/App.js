@@ -15,29 +15,24 @@ import { LocalizeProvider } from 'react-localize-redux'
 
 
 
+const App = () => (
+    <BrowserRouter  >
+      <Fragment>
+          <Navigation />
+          
+          <Switch>
+              <Route exact  path='/' component={Home} />
+              <Route path='/schedule' component={Schedule} />
+              <Route path='/trips/:tripsId' component={Trip} />
+              <Route path='/dive-sites' component={DiveSites} />
+              <Route path='/contact' component={Contact} />
+              <Route component={NotFound} />
+          </Switch>
+      </Fragment>
+    </BrowserRouter>
+)
 
 
-class App extends Component {
-
-  render() {
-    return (
-         <BrowserRouter  >
-            <Fragment>
-                <Navigation />
-                
-                <Switch>
-                    <Route exact  path='/' component={Home} />
-                    <Route path='/schedule' component={Schedule} />
-                    <Route path='/trips/:tripsId' component={Trip} />
-                    <Route path='/dive-sites' component={DiveSites} />
-                    <Route path='/contact' component={Contact} />
-                    <Route component={NotFound} />
-                </Switch>
-            </Fragment>
-         </BrowserRouter>
-    );
-  }
-}
 
 
 

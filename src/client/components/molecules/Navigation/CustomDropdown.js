@@ -20,7 +20,7 @@ import Button from "../../atoms/Buttons/TransparentButton";
 
 import customDropdownStyles from "../../../assets/jss/customDropdownStyles";
 
-class CustomDropdown extends React.Component {
+class CustomDropdown extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

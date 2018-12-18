@@ -8,14 +8,33 @@ import { Provider } from 'react-redux'
 import { store } from './backend/dux/store'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import AWSAppSyncClient from 'aws-appsync'
+import AppSyncConfig from './client/assets/api/aws-exports(2)'
+import { ApolloProvider } from 'react-apollo'
+import { Rehydrated } from 'aws-appsync-react'
+
 import {Index} from './App'
+
+const client = new AWSAppSyncClient({
+    url: AppSyncConfig.aws_appsync_graphqlEndpoint,
+    region: AppSyncConfig.aws_appsync_region,
+    auth: {
+      type: AppSyncConfig.aws_appsync_authenticationType,
+      apiKey: AppSyncConfig.aws_appsync_apiKey,
+    }
+})
+
 
 
 ReactDOM.render(
     <Fragment>
-        <Provider store={store} >
-            <Index />
-        </Provider>
+        <ApolloProvider client={client} >
+            <Rehydrated>
+                <Provider store={store} >
+                    <Index />
+                </Provider>
+            </Rehydrated>
+        </ApolloProvider>
     </Fragment>
 
 , document.getElementById('root'));

@@ -11,7 +11,7 @@ import Input from "@material-ui/core/Input";
 
 import customInputStyle from "../../../assets/jss/inputStyles";
 
-class CustomInput extends React.Component {
+class CustomInput extends React.PureComponent {
   render() {
     const {
       classes,
