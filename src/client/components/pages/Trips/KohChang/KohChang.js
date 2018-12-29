@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from 'react'
-// import Footer from '../../../molecules/Footer/Footer'
+import React, {  Fragment } from 'react'
 import { Schedule } from "./Schedule";
 import { Rates } from './Rates'
 import { getTranslate } from 'react-localize-redux'

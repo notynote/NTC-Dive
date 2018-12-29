@@ -9,7 +9,7 @@ import { store } from './backend/dux/store'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import AWSAppSyncClient from 'aws-appsync'
-import AppSyncConfig from './client/assets/api/aws-exports(2)'
+import AppSyncConfig from './client/assets/api/aws-exports(1)'
 import { ApolloProvider } from 'react-apollo'
 import { Rehydrated } from 'aws-appsync-react'
 

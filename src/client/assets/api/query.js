@@ -1,8 +1,10 @@
 import gql from 'graphql-tag'
-import { graphql } from 'react-apollo'
+import {
+    graphql
+} from 'react-apollo'
 
 
-const listNtcDive = gql`
+const listNtcDive = gql `
     query {
         listNtcDiveModels {
             items {
@@ -17,6 +19,9 @@ const listNtcDive = gql`
     }
 `;
 
+
+
+
 const composeScheduleData = graphql((listNtcDive), {
     options: data => ({
         fetchPolicy: "cache-and-network"
@@ -30,11 +35,16 @@ const composeScheduleData = graphql((listNtcDive), {
                 },
                 updateQuery: (previousResult) => ({
                     ...previousResult,
-                  })
+                })
             })
         },
         data: props.data
     })
 })
 
-export { composeScheduleData }
+
+
+
+export {
+    composeScheduleData,
+}
