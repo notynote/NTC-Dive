@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 import Tooltip from "@material-ui/core/Tooltip";
 import ListItem from "@material-ui/core/ListItem";
 import withStyles from "@material-ui/core/styles/withStyles";
@@ -13,7 +13,7 @@ import { youtube } from 'react-icons-kit/icomoon/youtube'
 import { instagram } from 'react-icons-kit/icomoon/instagram'
 
 
-class IconNav extends Component {
+class IconNav extends PureComponent {
   render() {
       const { classes } = this.props
     return (

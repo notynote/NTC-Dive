@@ -1,105 +1,68 @@
-import React, { Component, Fragment,  } from 'react'
+import React, {  Fragment,  } from 'react'
 
 import LoaderSuccess   from '../../../components/atoms/Loader/LoaderSuccess';
 
 import { connect } from "react-redux";
 import { submitFormToFirebase } from '../../../../backend/dux/actions/appActions';
 
+import { Formik, Form, Field } from 'formik'
 
 
+const FormContact = ({ dispatchSendEmailFirebase }) => {
+  return (
+    <Fragment>
+    <Formik
+            initialValues={{
+              name:"",
+             email:"",
+             message:"",
+           }}
+           onSubmit={( values, { resetForm } ) => {
+             const { name, email,  message } = values
+             dispatchSendEmailFirebase(name, email, message)
+             resetForm()
+           }}
+    > 
+   
+   
+     <Form className="contact100-form validate-form">
+       <span className="contact100-form-title">
+         Send Us A Message
+       </span>
+       <LoaderSuccess />
 
+       <label className="label-input100" htmlFor="email">Enter your name *</label>
+       <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+         <Field id="email" className="input100" type="text" name="name" placeholder="Eg. Full Name"
+         required
+           />
+         <span className="focus-input100"></span>
+       </div>
 
-class FormContact extends Component {
-  constructor(props) {
-    super(props)
-        this.state = {
-            name: '',
-            email: '',
-            message: '',
-            formError: '',
-        }
-        this.nameRef = React.createRef()
-        this.emailRef = React.createRef()
-        this.messageRef = React.createRef()
-  }
+       <label className="label-input100" htmlFor="email">Enter your Email *</label>
+       <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+         <Field id="email" className="input100" type="text" name="email" placeholder="Eg. example@email.com"
+         required
+         />
+         <span className="focus-input100"></span>
+       </div>
 
-  handleChange = name => event => {
-    this.setState({
-      [name]: event.target.value,
-    });
-  };
-  handleChange = email => event => {
-    this.setState({
-      [email]: event.target.value,
-    });
-  };
-  handleChange = message => event => {
-    this.setState({
-      [message]: event.target.value,
-    });
-  };
+       <label className="label-input100" htmlFor="message">Message *</label>
+       <div className="wrap-input100 validate-input" data-validate = "Message is required">
+         <Field id="message" className="input100" name="message" placeholder="Write us a message"
+         required type="textarea" />
+         <span className="focus-input100"></span>
+       </div>
 
-
-  submitForm = e => {
-        const { name, email, message } = this.state
-        e.preventDefault();
-        this.props.dispatchSendEmailFirebase(name, email, message)
-       this.clearInput()
-   }
-
-   clearInput = _ => this.setState({ name: '', email: '', message: ''})
-
-
-    render() {
-      const { translate} = this.props;
-      return (
-        <Fragment>
-        <form className="contact100-form validate-form" onSubmit={this.submitForm}>
-          <span className="contact100-form-title">
-            Send Us A Message
-          </span>
-          <LoaderSuccess />
-
-          <label className="label-input100" htmlFor="email">Enter your name *</label>
-          <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-            <input id="email" className="input100" type="text" name="name" placeholder="Eg. Full Name"
-            onChange={this.handleChange('name')}
-            ref={this.nameRef}
-            required
-            />
-            <span className="focus-input100"></span>
-          </div>
-
-          <label className="label-input100" htmlFor="email">Enter your Email *</label>
-          <div className="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-            <input id="email" className="input100" type="text" name="email" placeholder="Eg. example@email.com"
-            onChange={this.handleChange('email')}
-            required
-            ref={this.emailRef}
-            />
-            <span className="focus-input100"></span>
-          </div>
-
-          <label className="label-input100" htmlFor="message">Message *</label>
-          <div className="wrap-input100 validate-input" data-validate = "Message is required">
-            <textarea id="message" className="input100" name="message" placeholder="Write us a message"
-            required
-            onChange={this.handleChange('message')}
-            ref={this.messageRef}
-  
-            ></textarea>
-            <span className="focus-input100"></span>
-          </div>
-
-          <div className="container-contact100-form-btn">
-            <button className="contact100-form-btn" >
-              Send Message
-            </button>
-          </div>
-			</form>
-      </Fragment>
-    )
-  }
+       <div className="container-contact100-form-btn">
+         <button type="submit" className="contact100-form-btn" >
+           Send Message
+         </button>
+       </div>
+   </Form>
+   </Formik>
+   </Fragment>
+  )
 }
 
 
@@ -111,5 +74,6 @@ const mapStateToProps = state => ({
     app: state.app
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(FormContact)
+const Forms = connect(mapStateToProps, mapDispatchToProps)(FormContact)
+export default Forms
 

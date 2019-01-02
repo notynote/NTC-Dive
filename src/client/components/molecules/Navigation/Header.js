@@ -16,7 +16,7 @@ import Menu from "@material-ui/icons/Menu";
 
 import headerStyle from "../../../assets/jss/headStyles";
 
-class Header extends React.Component {
+class Header extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

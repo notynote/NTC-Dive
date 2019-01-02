@@ -1,57 +1,31 @@
 import React from 'react'
+import { CardContainer } from '../../molecules/CardContainer';
 
 
 
-export const NavContainer = ({ ...props }) => {
+export const NavContainer = ({ ...props, translate }) => {
         return (
         <React.Fragment>
-
       <div className='main__wrapper__container' >
+          <CardContainer
+          img={require("../../../assets/images/HTMS/POP_6864.jpg")}
+          onClick={() => props.history.push('/schedule')}
+          title={translate("Schedule.title")}
+          />
 
-        <div class="wrapper">
-            <div className='main__header' >
-            <h3 className='main_header__container' >{'Schedule & Rates'}</h3>
-            </div>
-        <div class="card"
-        onClick={() => props.history.push('/schedule')}
-        
-        ><img 
-        src={require("../../../assets/images/HTMS/POP_6864.jpg")} alt='...'
-        />
-          <div class="info">
-            <h3 className='hello' >{'Schedule & Rates'}</h3>
-            
-          </div>
-        </div>
-        </div>
 
-        <div class="wrapper">
-        <div className='main__header' >
-            <h3 className='main_header__container' >{'Liveaboard'}</h3>
-        </div>
-        <div class="card"
-        onClick={() => props.history.push('/trips/:Koh-Change-Liveaboard')}
-        ><img src={require("../../../assets/images/boat2/1.JPG")} alt='...' />
-          <div class="info">
-            <h3 className='hello' >{'Liveaboard'}</h3>
-        
-          </div>
-        </div>
-        </div>
+          <CardContainer
+          img={require("../../../assets/images/boat2/1.JPG")}
+          onClick={() => props.history.push('/trips/:Koh-Change-Liveaboard')}
+          title={translate("Schedule.Liveaboard")}
+          />
 
-        <div class="wrapper">
-        <div className='main__header' >
-            <h3 className='main_header__container' >{'Day Trip'}</h3>
-        </div>
-        <div class="card"
-        onClick={() => props.history.push('/trips/:day-trips')}
-        ><img src={require("../../../assets/images/rock/POP_8268.JPG")} alt='...' />
-          <div class="info">
-            <h3 className='hello' >{'Day Trip'}</h3>
-            
-          </div>
-        </div>
-        </div>
+
+          <CardContainer
+          img={require("../../../assets/images/rock/POP_8268.JPG")}
+          onClick={() => props.history.push('/trips/:day-trips')}
+          title={translate("Schedule.DayTrip")}
+          />
         </div>
         </React.Fragment>
       )

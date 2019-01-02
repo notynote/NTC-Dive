@@ -7,6 +7,8 @@ import { connect } from "react-redux";
 import { Link } from 'react-router-dom'
 
 
+// export const Footer = () => 
+
 class Footer extends React.PureComponent {
 
   render() {

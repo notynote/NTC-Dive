@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 
 import Footer from '../../molecules/Footer/Footer'
 
@@ -17,7 +17,7 @@ import { NavContainer } from './NavContainer';
 
 
 
-class Home extends Component {
+class Home extends PureComponent {
 
   componentDidMount() {
     document.title = ` NTC Dive`
@@ -32,7 +32,7 @@ class Home extends Component {
                 <h1 className='title__home' >{title}</h1>
               </div>
           </div>
-            <NavContainer { ...this.props } />
+            <NavContainer { ...this.props } translate={translate} />
             <AboutUs translate={translate} />
             <Footer translate={translate}
             lang={languages}

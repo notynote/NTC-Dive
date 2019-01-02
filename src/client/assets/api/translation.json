@@ -1,46 +1,48 @@
 {
     "brand": {
-        "title": ["NTC Dive Center Welcomes You", "ศูนย์ดำน้ำ NTC ต้อนรับคุณ"],
-        "subtitle": ["A Local Dive Center", "ศูนย์ดำน้ำในท้องถิ่น"],
+        "title": ["Nawee Taweechoke", "นาวี ทวีโชติ"],
+        "subtitle": ["Uncover the ocean", "บริการเรือท่องเที่ยว"],
         "btn": ["Itinerary", "การเดินทาง"],
         "btn2": ["Contact", "ติดต่อ"],
-        "know_about": ["Know More About Us", "รู้เพิ่มเติมเกี่ยวกับเรา"]
+        "know_about": ["About Us", "เกี่ยวกับเรา"]
     },
     "AboutUs":{
-        "title": ["About NTC Dive", "เกี่ยวกับ NTC Dive"],
-        "content": ["NTC stands for Nawee Taweechoke. We provide a liveaboard and day trip for scuba diving service in Eastern Thailand. Our mission is to bring scuba divers to a stunning dive sites with ease. Our fleet equipped with the professional staff and scuba diving equipment to suit everybody needs. We are looking forward to serving you on an unforgettable journey.","NTC ย่อมาจาก Nawee Taweechoke เราให้บริการการดำน้ำตื้นและบริการนำเที่ยวแบบวันเดียวสำหรับนักดำน้ำในภาคตะวันออกของประเทศไทย ภารกิจของเราคือการนำนักดำน้ำไปดำน้ำที่สถานที่ดำน้ำที่สวยงามได้อย่างง่ายดาย ฝูงบินของเราพร้อมกับพนักงานมืออาชีพและอุปกรณ์ดำน้ำเพื่อตอบสนองทุกความต้องการ เรากำลังรอคอยที่จะให้บริการคุณในการเดินทางที่น่าจดจำ"],
+        "title": ["About NTC Dive", "เกี่ยวกับเรา"],
+        "content": ["NTC stands for Nawee Taweechoke. We provide a liveaboard and day trip for scuba diving service in Eastern Thailand. Our mission is to bring scuba divers to a stunning dive sites with ease. Our fleet equipped with the professional staff and scuba diving equipment to suit everybody needs. We are looking forward to serving you on an unforgettable journey.","บริษัท นาวี ทวีโชติ จำกัด ให้บริการการเรือท่องเที่ยวสำหรับกิจกรรมดำน้ำในภาคตะวันออกของประเทศไทย ภารกิจของเราคือการอำนวยความสะดวกสบายให้แก่นักดำน้ำด้วยเรือทั้งสองลำชองเรา"],
         "subtitle1": ["Join Our Trip", "เข้าร่วมการเดินทางของเรา"],
-        "content1": ["We provide both two days liveaboard trip every weekend during a diving season. Meanwhile, we also have a one day trip for a diver who has less time to spare. Learn more about our destination", "เราให้บริการการท่องเที่ยวสดทั้งสองวันในช่วงสุดสัปดาห์ในช่วงฤดูดำน้ำ ในขณะเดียวกันเรายังมีการเดินทางวันหนึ่งสำหรับนักดำน้ำที่มีเวลาว่างน้อยลง เรียนรู้เพิ่มเติมเกี่ยวกับจุดหมายปลายทางของเรา"],
+        "content1": ["We provide both two days liveaboard trip every weekend during a diving season. Meanwhile, we also have a one day trip for a diver who has less time to spare. Learn more about our destination", "เรือของเราออกทุกสุดสัปดาห์ในฤดูกาลดำน้ำ ในขณะเดียวกันเรายังมีการเดินทางแบบไปเช้าเย็นกลับสำหรับนักดำน้ำที่ไม่ต้องการนอนบนเรือ เรียนรู้เพิ่มเติมเกี่ยวกับจุดหมายปลายทางของเรา"],
         "btn": ["Liveaboard", "Liveaboard"],
         "subtitle2": ["Destination", "ปลายทาง"],
         "btn2": ["Day Trips", "Day Trips"],
-        "contact_us": ["Check Out More", "เช็คเอาท์เพิ่มเติม"]
+        "contact_us": ["Check Out More", "เพิ่มเติม"]
     },
     "ContactFormHome": {
         "contact": ["Contact Us", "ติดต่อเรา"],
-        "contact_subtitle": ["Feel free to drop us a line below!", "รู้สึกอิสระที่จะปล่อยเราบรรทัดด้านล่าง!"]
+        "contact_subtitle": ["Feel free to drop us a line below!", "Feel free to drop us a line below!"]
     },
     "Schedule": {
         "title": ["Schedule & Rates","กำหนดการและราคา"],
+        "Liveaboard": ["Liveaboard", "Liveaboard"],
+        "DayTrip": ["Day Trip", "Day Trip"],
         "tripcode": ["Trip Code", "รหัสการเดินทาง"],
         "dates": ["Dates", "วันที่"],
         "Boat": ["Boat", "เรือ"],
         "Itirenary": ["Itinerary", "การเดินทาง"],
         "booking": ["Booking", "การจอง"],
-        "Avalibility": ["Availability", "ความพร้อมใช้งาน"],
+        "Avalibility": ["Availability", "ที่ว่าง"],
         "oct": ["October 2018", "ตุลาคม 2018"],
         "nov": ["November 2018", "พฤศจิกายน 2018"],
         "dec": ["December 2018", "ธันวาคม 2018"],
         "jan": ["January 2019", "มกราคม 2018"],
         "feb": ["February 2019", "กุมภาพันธ์ 2018"],
         "march": ["March 2019", "มีนาคม 2018"],
-        "enquiry": ["Enquiry", "การสอบสวน"]
+        "enquiry": ["Enquiry", "ติดต่อสอบถาม"]
     },
     "KohChang": {
         "title": ["Koh Chang", "เกาะช้าง"],
         "subtitle": ["About", "เกี่ยวกับ"],
         "content_1": ["Koh Chang is the largest and most popular of the islands in eastern Thailand.", "เกาะช้างเป็นเกาะที่มีขนาดใหญ่และเป็นที่นิยมมากที่สุดในภาคตะวันออกของประเทศไทย"],
-        "content_2": ["We offer an enjoyable trip to one of the best ship wreck dive site in a gulf of Thailand. You won't have to ask for the extra day off from you everyday job because our trip will only take an weekend to enjoy. No more time wasting on a ferry to take you from mainland to Koh Chang.", "เรานำเสนอการเดินทางที่สนุกสนานไปยังสถานที่ดำน้ำเรือสำราญที่ดีที่สุดแห่งหนึ่งในอ่าวไทย คุณจะไม่ต้องขอวันพิเศษจากงานประจำวันเพราะการเดินทางของเราจะใช้เวลาเพียงวันหยุดสุดสัปดาห์เท่านั้น ไม่ต้องเสียเวลากับเรือข้ามฟากเพื่อพาคุณจากแผ่นดินใหญ่มายังเกาะช้าง"],
+        "content_2": ["We offer an enjoyable trip to one of the best ship wreck dive site in a gulf of Thailand. You won't have to ask for the extra day off from you everyday job because our trip will only take an weekend to enjoy. No more time wasting on a ferry to take you from mainland to Koh Chang.", "เราจะพาท่านเดินทางสู่จุดดำน้ำเรือจมที่ยิ่งใหญ่อันดับต้นๆของประเทศไทยโดยที่นักดำน้ำไม่จำเป็นต้องใช้เวลานานในการเดินทาง เรื่องของเราออกทุกคืนวันศุกร์ที่จังหวัดระยองซึ่งใช้เวลาขับรถเพียง 3 ชั่วโมงจากกรุงเทพ ท่านจะได้ดื่มด่ำกับการดำน้ำที่สะดวกสบายกับแหล่งดำน้ำคุณภาพที่เกาะช้าง และ หินเพิง"],
         "content_3": ["This 2 Days/Night trip is about you and the beautiful view of Koh Chang's underwater scene.", "การเดินทาง 2 วัน / คืนนี้เป็นเรื่องเกี่ยวกับตัวคุณและมุมมองที่สวยงามของฉากใต้น้ำของเกาะช้าง"],
         
         "subtitle2": ["Trips To Koh Chang", "ทริปไปเกาะช้าง"],
@@ -81,8 +83,8 @@
     },
 
     "DayTrips": {
-        "title": ["One Day Trip", "ในวันเดินทาง"],
-        "subtitle": ["Destination: Alhambra Rock or Koh Thalu", "ปลายทาง: Alhambra Rock หรือ Koh Thalu"],
+        "title": ["One Day Trip", "เดินทางแบบวันเดียว"],
+        "subtitle": ["Destination: Alhambra Rock or Koh Thalu", "ปลายทาง:  หินเพิง หรือ เกาะทะลุ"],
         "subtitle2": ["Dive Sites will be decided based on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาขึ้นอยู่กับสภาพอากาศในแต่ละวัน"],
         "subtitle3": ["Package Include:", "แพคเกจรวม:"],
 
@@ -92,17 +94,18 @@
         "lists__4": ["Dive Leader", "ผู้นำการดำน้ำ"],
         "lists__5": ["Price: 2,500", "ราคา: 2,500"],
         "lists__6": ["Price does not Include", "ราคาไม่รวม"],
-        "lists__7": ["National Park Fee (Thai = 40baht), (Foreigner = 200 baht)", "ค่าธรรมเนียมอุทยานแห่งชาติ (ไทย = 40 บาท), ชาวต่างชาติ = 200 บาท"],
+        "lists__7": ["National Park Fee (Thai = 40baht), (Foreigner = 200 baht)", "ค่าธรรมเนียมอุทยานแห่งชาติ ไทย = 40 บาท, ชาวต่างชาติ = 200 บาท"],
         "lists__8": ["Nitox 300 Baht/Dive", "Nitox 300 บาท / ครั้งดำน้ำ"],
-        "lists__9": ["Extra (3rd) dive 500 Baht", "ดำน้ำเสริม (3rd) 500 บาท"],
+        "lists__9": ["Extra (3rd) dive 500 Baht", "ดำน้ำไดพ์ที่สาม 500 บาท"],
         "lists__10": ["Equiment Rental 500 Baht/Day", "ค่าเช่าอุปกรณ์ 500 บาท / วัน"]
     },
 
     "DiveSites": {
-        "title": ["Non Diver Package", "แพ็คเกจ Non Diver"],
+        "title": ["Non Diver Package", "แพ็คเกจสำหรับผู้ไม่ดำน้ำลึก"],
         "subtitle": ["Dive Sites will be decided base on weather condition each day.", "แหล่งดำน้ำจะได้รับการพิจารณาตามสภาพอากาศในแต่ละวัน"],
         "subtitle1": ["Snorkeling Equipment", "อุปกรณ์ดำน้ำตื้น"],
-        "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"]
+        "price": ["Price: 1,500 Baht", "ราคา: 1,500 บาท"],
+        "header": ["Check Out Our Dive Sites", "Check Out Our Dive Sites"]
     },
 
     "SitesContainer": {
@@ -118,28 +121,28 @@
     "Sites": {
         "title": ["Dive Sites", "แหล่งดำน้ำ"],
         "header": ["Boat Information", "ข้อมูลเรือ"],
-        "subtitle": ["January Princess", "มกราคมเจ้าหญิง"],
-        "content": ["Liveaboard boat with a bedroom for 20 divers. Each bedroom can accommodate four bunk bed with personal light and power outlet, private locker, and air conditioner. The ship equipped with a full-sized kitchen, Air conditioner salon, large dive deck, and outdoor dining room", "เรือดำน้ำพร้อมห้องนอนสำหรับนักดำน้ำ 20 ท่าน ห้องนอนแต่ละห้องสามารถรองรับเตียงสี่ชั้น 4 ที่มีไฟส่องสว่างและเต้าเสียบไฟส่วนตัวตู้เก็บของส่วนตัวและเครื่องปรับอากาศ เรือมีห้องครัวขนาดใหญ่ห้องโถงเครื่องปรับอากาศห้องรับแขกขนาดใหญ่และห้องรับประทานอาหารกลางแจ้ง"],
+        "subtitle": ["January Princess", "January Princess"],
+        "content": ["Liveaboard boat with a bedroom for 20 divers. Each bedroom can accommodate four bunk bed with personal light and power outlet, private locker, and air conditioner. The ship equipped with a full-sized kitchen, Air conditioner salon, large dive deck, and outdoor dining room", "เรือดำน้ำพร้อมห้องนอนสำหรับนักดำน้ำ 20 ท่าน ห้องนอนแต่ละห้องสามารถรองรับนักดำน้ำได้ 4 ท่าน โดยจะมีไฟส่องสว่าง เต้าเสียบไฟส่วนตัวและตู้เก็บของส่วนตัว พร้อมเครื่องปรับอากาศภายในห้อง เรือมีห้องครัวขนาดใหญ่ห้องโถงเครื่องปรับอากาศห้องรับแขกขนาดใหญ่และห้องรับประทานอาหารกลางแจ้ง"],
         "content1": ["Day trip boat fully equipped with scuba diving equipment. The ship accommodates air conditioning Saloon on the main deck with six bunk beds for customer's comfort, and large open space on the upper floor.", "เรือท่องเที่ยวพร้อมอุปกรณ์ดำน้ำครบวงจร เรือรองรับเครื่องปรับอากาศ Saloon บนดาดฟ้าหลักพร้อมเตียงนอนหกชั้นเพื่อความสะดวกสบายของลูกค้าและพื้นที่เปิดโล่งขนาดใหญ่ที่ชั้นบน"]
     },
     "Contact": {
-        "contact": ["Contact", "ติดต่อ"],
-        "title":["Find us at the office", "หาเราได้ที่ออฟฟิศ"],
-        "address1": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon", "17 ถนนบางกรวย 4 ซอย 5 ถ. เอกชัย บางบอน"],
+        "contact": ["Contact", "ติดต่อเรา"],
+        "title":["Find us at the office", "ออฟฟิศของเรา"],
+        "address1": ["17 Bangbon 4 Soi 5, Ekkachai Rd. Bangbon", "17 ถนนบางบอน 4 ซอย 5 บางบอน"],
         "address2": ["Bangkok, Thailand 10150", "กรุงเทพฯ 10150"],
         "email": ["email", "อีเมล"],
-        "name": ["Full name...", "ชื่อเต็ม"],
-        "message": ["Message", "ข่าวสาร"],
-        "btn": ["SUBMIT", "เสนอ"]
+        "name": ["Full name...", "ชื่อ"],
+        "message": ["Message", "ข้อความ"],
+        "btn": ["SUBMIT", "ส่ง"]
     },
 
 
     "Footer": {
-        "address": ["17 Bangbon 4 Soi 5, Ekachai Rd.", "17 ถนนบางกรวย 4 ซอย 5 ถ. เอกชัย"],
-        "address2": ["Bangbon Bangkok, Thailand 10150", "บางบอนกรุงเทพฯ 10150"],
+        "address": ["17 Bangbon 4 Soi 5, Ekachai Rd.", "17 ถนนบางบอน 4 ซอย 5"],
+        "address2": ["Bangbon Bangkok, Thailand 10150", "บางบอน กรุงเทพฯ 10150"],
         "about_company": ["About the company", "เกี่ยวกับ บริษัท"],
         "content": ["We are a travel boater and diver. We have two service ships: MV.January Princess and MV.Penpisut, along with tons and experienced team. And trained well. To provide the most comfortable and worthwhile travelers.", "เราเป็นผู้ให้บริการเรือท่องเที่ยวและกิจกรรมดำน้ำลึก เรามีเรือที่ให้บริการสองลำ คือ MV.January Princess และ MV.Penpisut พร้อมกับตันและทีมงานที่มีประสบการณ์ และได้รับการฝึกฝนมาเป็นอย่างดี เพื่อให้นักท่องเที่ยวได้รับความสะดวกสบายและคุ้มค่ามากที่สุด"],
-        "error": ["Error: Email Cannot be Empty", "ข้อผิดพลาด: อีเมลไม่ว่างเปล่า"]
+        "error": ["Error: Email Cannot be Empty", "ข้อผิดพลาด: อีเมลต้องไม่ว่างเปล่า"]
     }
 
 

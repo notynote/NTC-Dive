@@ -1,9 +1,11 @@
-import React, { Component, Fragment } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 import KohChang from './KohChang/KohChang'
 import DayTrips from './DayTrips/DayTrips'
 
 
-class Trips extends Component {
+
+
+class Trips extends PureComponent {
 
   _renderLocation = () => {
     const { pathname } = this.props.location;
